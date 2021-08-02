@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
+
     public class Category
     {
         [Key]
@@ -14,5 +15,7 @@ namespace Entity
 
         [StringLength(maximumLength: 50)]
         public string Name { get; set; }
+
+        public string UserID { get; set; }
     }
 }

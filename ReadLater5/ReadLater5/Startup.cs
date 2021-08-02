@@ -11,7 +11,13 @@ using Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
+using System.Text;
 using System.Threading.Tasks;
+using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.IdentityModel.Tokens;
 
 namespace ReadLater5
 {
@@ -38,6 +44,57 @@ namespace ReadLater5
             services.AddScoped<ICategoryService, CategoryService>();
 
             services.AddScoped<IBookmarkService, BookmarkService>();
+
+            services.AddTransient<IEmailSender, EmailSender>();
+            services.Configure<MailKitEmailSenderOptions>(options =>
+            {
+                options.Host_Address = "smtp-relay.sendinblue.com";
+                options.Host_Port = 587;
+                options.Host_Username = "toiise@hotmail.com";
+                options.Host_Password = "V6XzUvKQDxsH5d7r";
+                options.Sender_EMail = "toiise@hotmail.com";
+                options.Sender_Name = "Read Later";
+            });
+
+            
+
+            services.AddAuthentication(options =>
+                {
+                    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+                }).AddJwtBearer(options =>
+                {
+                    options.SaveToken = true;
+                    options.RequireHttpsMetadata = false;
+                    options.TokenValidationParameters = new TokenValidationParameters()
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidAudience = Configuration["Token:Audience"],
+                        ValidIssuer = Configuration["Token:Issuer"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Token:Key"]))
+                    };
+                })
+                .AddGoogle(options =>
+                {
+                    IConfigurationSection googleAuthNSection =
+                        Configuration.GetSection("Authentication:Google");
+
+                    options.ClientId = googleAuthNSection["ClientId"];
+                    options.ClientSecret = googleAuthNSection["ClientSecret"];
+                }).AddFacebook(facebookOptions =>
+                {
+                    facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
+                    facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+                });
+
+         
+
+            var assembly = AppDomain.CurrentDomain.Load("Services");
+            services.AddMediatR(assembly);
+
+
 
             services.AddControllersWithViews();
         }

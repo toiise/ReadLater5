@@ -1,0 +1,1147 @@
+2021-08-02 20:34:45.567 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 20:34:45.984 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 20:34:45.985 +02:00 [INF] Hosting environment: Development
+2021-08-02 20:34:45.985 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 20:34:46.135 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 20:34:46.557 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:34:46.647 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 20:34:46.674 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:34:47.275 +02:00 [INF] Executed ViewResult - view Index executed in 614.7714ms.
+2021-08-02 20:34:47.280 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 630.2665ms
+2021-08-02 20:34:47.283 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:34:47.301 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 1174.4932ms
+2021-08-02 20:34:50.948 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login - -
+2021-08-02 20:34:51.115 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-02 20:34:51.149 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-02 20:34:51.182 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-02 20:34:51.220 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-02 20:34:51.222 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-02 20:34:51.227 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-02 20:34:51.227 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-02 20:34:51.388 +02:00 [INF] Executed page /Account/Login in 238.7287ms
+2021-08-02 20:34:51.388 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-02 20:34:51.389 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 441.4032ms
+2021-08-02 20:34:52.924 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200
+2021-08-02 20:34:52.932 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-02 20:34:52.959 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-02 20:34:53.026 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-02 20:34:53.028 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-02 20:34:53.030 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Facebook"]).
+2021-08-02 20:34:53.033 +02:00 [INF] AuthenticationScheme: Facebook was challenged.
+2021-08-02 20:34:53.034 +02:00 [INF] Executed page /Account/ExternalLogin in 74.6474ms
+2021-08-02 20:34:53.034 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-02 20:34:53.037 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200 - 302 - - 112.7623ms
+2021-08-02 20:34:53.775 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/signin-facebook?code=AQBaRTuxtilPTuE-4K6U-BtR9cz7HTmkUFkEeTtx7K-ELGlPoY2xFGOENSeN_npnmaSAaaR5OMa1JCeoIhGxgkkLNSCXGfTZFU9dkjbPWCgZQ2hL5abf4RPAuNtCKeUeSmbh3LxNocmjFA2qukdj4rp8vsZTF10EppdKyHc17EjkiH5M6xWBcZfQgypeHPD_nl-zL0zw-wiPxXwhNkIUQQtT3dtznLsvJq51lA0lpX6Mw_A9oLvDWxtsCQzvhiAutbdLTWZpdtHuYiaxNnb8ff6IFBtHp9OM4wEYHuNrM18m0LKJdJ2stmxFo5CcrM4r8UkeXpswTfLhu4A_fiQIqGIi&state=CfDJ8N20G8vYu7JNtrBQlQwhqpnlF3zO8ze3uDAcT4Y2K0BcDg1usM5kzRU4eCxNoBE32h60YAZewUmFvJiKoF8DefMBgGB7g2FCF7n3CzkXbfaZxAnbR6sGxfCHQmGFrnX8d3nhoCr_f-7cTfLj4kit4r_bxueU1HgSZ_NZRUVZrHVOF9neQoz4OWi-fMTh8LU4_edsYXCVni9K_9NuDb_PwQVgldXBTyg-n1t2qYdfkJ4JdvTKENYAb3g5v_pm7jDCQlnZ9g7uKHCbEO0yPF-AGvlUjpb5les-gNz6wnIb1M-VdczGjWvYfNzUHdDnNdW1Bw - -
+2021-08-02 20:34:55.141 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2021-08-02 20:34:55.147 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/signin-facebook?code=AQBaRTuxtilPTuE-4K6U-BtR9cz7HTmkUFkEeTtx7K-ELGlPoY2xFGOENSeN_npnmaSAaaR5OMa1JCeoIhGxgkkLNSCXGfTZFU9dkjbPWCgZQ2hL5abf4RPAuNtCKeUeSmbh3LxNocmjFA2qukdj4rp8vsZTF10EppdKyHc17EjkiH5M6xWBcZfQgypeHPD_nl-zL0zw-wiPxXwhNkIUQQtT3dtznLsvJq51lA0lpX6Mw_A9oLvDWxtsCQzvhiAutbdLTWZpdtHuYiaxNnb8ff6IFBtHp9OM4wEYHuNrM18m0LKJdJ2stmxFo5CcrM4r8UkeXpswTfLhu4A_fiQIqGIi&state=CfDJ8N20G8vYu7JNtrBQlQwhqpnlF3zO8ze3uDAcT4Y2K0BcDg1usM5kzRU4eCxNoBE32h60YAZewUmFvJiKoF8DefMBgGB7g2FCF7n3CzkXbfaZxAnbR6sGxfCHQmGFrnX8d3nhoCr_f-7cTfLj4kit4r_bxueU1HgSZ_NZRUVZrHVOF9neQoz4OWi-fMTh8LU4_edsYXCVni9K_9NuDb_PwQVgldXBTyg-n1t2qYdfkJ4JdvTKENYAb3g5v_pm7jDCQlnZ9g7uKHCbEO0yPF-AGvlUjpb5les-gNz6wnIb1M-VdczGjWvYfNzUHdDnNdW1Bw - - - 302 - - 1372.3349ms
+2021-08-02 20:34:55.176 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - -
+2021-08-02 20:34:55.177 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-02 20:34:55.178 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-02 20:34:55.180 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2021-08-02 20:34:57.274 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:35:02.465 +02:00 [INF] Executed DbCommand (1,230ms) [Parameters=[@__loginProvider_0='?' (Size = 128), @__providerKey_1='?' (Size = 128)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[LoginProvider], [a].[ProviderKey], [a].[ProviderDisplayName], [a].[UserId]
+FROM [AspNetUserLogins] AS [a]
+WHERE ([a].[LoginProvider] = @__loginProvider_0) AND ([a].[ProviderKey] = @__providerKey_1)
+2021-08-02 20:35:02.720 +02:00 [INF] Executed DbCommand (122ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__userId_0
+2021-08-02 20:35:02.908 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-02 20:35:03.099 +02:00 [INF] Executed DbCommand (165ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-08-02 20:35:03.105 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-08-02 20:35:03.108 +02:00 [INF] User logged in with Facebook provider.
+2021-08-02 20:35:03.109 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2021-08-02 20:35:03.111 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2021-08-02 20:35:03.112 +02:00 [INF] Executed page /Account/ExternalLogin in 7933.8805ms
+2021-08-02 20:35:03.113 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-02 20:35:03.116 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - - - 302 - - 7940.5179ms
+2021-08-02 20:35:03.118 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 20:35:03.121 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:35:03.121 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 20:35:03.121 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:35:03.124 +02:00 [INF] Executed ViewResult - view Index executed in 2.9072ms.
+2021-08-02 20:35:03.124 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 3.1532ms
+2021-08-02 20:35:03.124 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:35:03.124 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 6.2911ms
+2021-08-02 20:35:07.794 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Categories - -
+2021-08-02 20:35:07.808 +02:00 [INF] Authorization was successful.
+2021-08-02 20:35:07.809 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.CategoriesController.Index (ReadLater5)'
+2021-08-02 20:35:07.811 +02:00 [INF] Route matched with {action = "Index", controller = "Categories", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.CategoriesController (ReadLater5).
+2021-08-02 20:35:07.837 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:35:08.423 +02:00 [INF] Executed DbCommand (566ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2021-08-02 20:35:08.426 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:35:09.401 +02:00 [INF] Executed ViewResult - view Index executed in 975.4273ms.
+2021-08-02 20:35:09.401 +02:00 [INF] Executed action ReadLater5.Controllers.CategoriesController.Index (ReadLater5) in 1589.8606ms
+2021-08-02 20:35:09.405 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.CategoriesController.Index (ReadLater5)'
+2021-08-02 20:35:09.405 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Categories - - - 200 - text/html;+charset=utf-8 1611.1603ms
+2021-08-02 20:35:10.811 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Categories/Create - -
+2021-08-02 20:35:10.812 +02:00 [INF] Authorization was successful.
+2021-08-02 20:35:10.813 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.CategoriesController.Create (ReadLater5)'
+2021-08-02 20:35:10.814 +02:00 [INF] Route matched with {action = "Create", controller = "Categories", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller ReadLater5.Controllers.CategoriesController (ReadLater5).
+2021-08-02 20:35:10.815 +02:00 [INF] Executing ViewResult, running view Create.
+2021-08-02 20:35:10.864 +02:00 [INF] Executed ViewResult - view Create executed in 49.7914ms.
+2021-08-02 20:35:10.864 +02:00 [INF] Executed action ReadLater5.Controllers.CategoriesController.Create (ReadLater5) in 50.2154ms
+2021-08-02 20:35:10.864 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.CategoriesController.Create (ReadLater5)'
+2021-08-02 20:35:10.865 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Categories/Create - - - 200 - text/html;+charset=utf-8 53.9559ms
+2021-08-02 20:35:17.685 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Categories/Create application/x-www-form-urlencoded 235
+2021-08-02 20:35:17.688 +02:00 [INF] Authorization was successful.
+2021-08-02 20:35:17.688 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.CategoriesController.Create (ReadLater5)'
+2021-08-02 20:35:17.690 +02:00 [INF] Route matched with {action = "Create", controller = "Categories", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(Entity.Category) on controller ReadLater5.Controllers.CategoriesController (ReadLater5).
+2021-08-02 20:35:17.702 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:35:17.971 +02:00 [INF] Executed DbCommand (124ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Categories] ([Name], [UserID])
+VALUES (@p0, @p1);
+SELECT [ID]
+FROM [Categories]
+WHERE @@ROWCOUNT = 1 AND [ID] = scope_identity();
+2021-08-02 20:35:18.010 +02:00 [INF] Executing RedirectResult, redirecting to /Categories.
+2021-08-02 20:35:18.010 +02:00 [INF] Executed action ReadLater5.Controllers.CategoriesController.Create (ReadLater5) in 320.1652ms
+2021-08-02 20:35:18.010 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.CategoriesController.Create (ReadLater5)'
+2021-08-02 20:35:18.011 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Categories/Create application/x-www-form-urlencoded 235 - 302 - - 325.9940ms
+2021-08-02 20:35:18.014 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Categories - -
+2021-08-02 20:35:18.015 +02:00 [INF] Authorization was successful.
+2021-08-02 20:35:18.015 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.CategoriesController.Index (ReadLater5)'
+2021-08-02 20:35:18.015 +02:00 [INF] Route matched with {action = "Index", controller = "Categories", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.CategoriesController (ReadLater5).
+2021-08-02 20:35:18.016 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:35:18.021 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2021-08-02 20:35:18.023 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:35:18.026 +02:00 [INF] Executed ViewResult - view Index executed in 3.5608ms.
+2021-08-02 20:35:18.027 +02:00 [INF] Executed action ReadLater5.Controllers.CategoriesController.Index (ReadLater5) in 10.9926ms
+2021-08-02 20:35:18.027 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.CategoriesController.Index (ReadLater5)'
+2021-08-02 20:35:18.027 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Categories - - - 200 - text/html;+charset=utf-8 12.7614ms
+2021-08-02 20:35:19.479 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Categories/Create - -
+2021-08-02 20:35:19.491 +02:00 [INF] Authorization was successful.
+2021-08-02 20:35:19.491 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.CategoriesController.Create (ReadLater5)'
+2021-08-02 20:35:19.491 +02:00 [INF] Route matched with {action = "Create", controller = "Categories", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller ReadLater5.Controllers.CategoriesController (ReadLater5).
+2021-08-02 20:35:19.492 +02:00 [INF] Executing ViewResult, running view Create.
+2021-08-02 20:35:19.495 +02:00 [INF] Executed ViewResult - view Create executed in 3.342ms.
+2021-08-02 20:35:19.495 +02:00 [INF] Executed action ReadLater5.Controllers.CategoriesController.Create (ReadLater5) in 3.5736ms
+2021-08-02 20:35:19.495 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.CategoriesController.Create (ReadLater5)'
+2021-08-02 20:35:19.495 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Categories/Create - - - 200 - text/html;+charset=utf-8 16.4695ms
+2021-08-02 20:35:22.514 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Categories/Create application/x-www-form-urlencoded 236
+2021-08-02 20:35:22.514 +02:00 [INF] Authorization was successful.
+2021-08-02 20:35:22.515 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.CategoriesController.Create (ReadLater5)'
+2021-08-02 20:35:22.515 +02:00 [INF] Route matched with {action = "Create", controller = "Categories", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(Entity.Category) on controller ReadLater5.Controllers.CategoriesController (ReadLater5).
+2021-08-02 20:35:22.517 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:35:22.627 +02:00 [INF] Executed DbCommand (108ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Categories] ([Name], [UserID])
+VALUES (@p0, @p1);
+SELECT [ID]
+FROM [Categories]
+WHERE @@ROWCOUNT = 1 AND [ID] = scope_identity();
+2021-08-02 20:35:22.630 +02:00 [INF] Executing RedirectResult, redirecting to /Categories.
+2021-08-02 20:35:22.630 +02:00 [INF] Executed action ReadLater5.Controllers.CategoriesController.Create (ReadLater5) in 115.3742ms
+2021-08-02 20:35:22.630 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.CategoriesController.Create (ReadLater5)'
+2021-08-02 20:35:22.635 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Categories/Create application/x-www-form-urlencoded 236 - 302 - - 121.2123ms
+2021-08-02 20:35:22.639 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Categories - -
+2021-08-02 20:35:22.640 +02:00 [INF] Authorization was successful.
+2021-08-02 20:35:22.640 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.CategoriesController.Index (ReadLater5)'
+2021-08-02 20:35:22.640 +02:00 [INF] Route matched with {action = "Index", controller = "Categories", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.CategoriesController (ReadLater5).
+2021-08-02 20:35:22.641 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:35:22.643 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2021-08-02 20:35:22.643 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:35:22.646 +02:00 [INF] Executed ViewResult - view Index executed in 2.8742ms.
+2021-08-02 20:35:22.646 +02:00 [INF] Executed action ReadLater5.Controllers.CategoriesController.Index (ReadLater5) in 6.1432ms
+2021-08-02 20:35:22.646 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.CategoriesController.Index (ReadLater5)'
+2021-08-02 20:35:22.647 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Categories - - - 200 - text/html;+charset=utf-8 7.8434ms
+2021-08-02 20:35:48.042 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/GetCategories - -
+2021-08-02 20:35:48.054 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetCategories (ReadLater5)'
+2021-08-02 20:35:48.064 +02:00 [INF] Route matched with {action = "GetCategories", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetCategories() on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 20:35:56.410 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:35:56.530 +02:00 [INF] Executed DbCommand (113ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+2021-08-02 20:36:27.418 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 20:36:27.682 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 20:36:27.682 +02:00 [INF] Hosting environment: Development
+2021-08-02 20:36:27.682 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 20:36:27.723 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 20:36:27.993 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:36:28.019 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 20:36:28.031 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:36:28.375 +02:00 [INF] Executed ViewResult - view Index executed in 349.5277ms.
+2021-08-02 20:36:28.376 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 357.2839ms
+2021-08-02 20:36:28.377 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:36:28.387 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 666.9456ms
+2021-08-02 20:36:36.593 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/GetCategories - -
+2021-08-02 20:36:36.597 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetCategories (ReadLater5)'
+2021-08-02 20:36:36.609 +02:00 [INF] Route matched with {action = "GetCategories", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetCategories() on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 20:37:15.436 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:37:16.674 +02:00 [INF] Executed DbCommand (73ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+2021-08-02 20:37:33.538 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-08-02 20:37:33.538 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetCategories (ReadLater5) in 56929.6093ms
+2021-08-02 20:37:33.538 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetCategories (ReadLater5)'
+2021-08-02 20:37:33.687 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/GetCategories - - - 0 - text/plain;+charset=utf-8 57093.6536ms
+2021-08-02 20:37:47.616 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks - -
+2021-08-02 20:37:47.626 +02:00 [INF] Authorization was successful.
+2021-08-02 20:37:47.627 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-02 20:37:47.627 +02:00 [INF] Route matched with {action = "Index", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-02 20:37:47.666 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:37:47.877 +02:00 [INF] Executed DbCommand (92ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-02 20:37:47.885 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+2021-08-02 20:37:48.061 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:37:48.116 +02:00 [INF] Executed ViewResult - view Index executed in 59.2364ms.
+2021-08-02 20:37:48.116 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Index (ReadLater5) in 488.791ms
+2021-08-02 20:37:48.116 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-02 20:37:48.117 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks - - - 200 - text/html;+charset=utf-8 500.4323ms
+2021-08-02 20:37:50.315 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks/Create - -
+2021-08-02 20:37:50.326 +02:00 [INF] Authorization was successful.
+2021-08-02 20:37:50.326 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Create (ReadLater5)'
+2021-08-02 20:37:50.327 +02:00 [INF] Route matched with {action = "Create", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-02 20:37:50.356 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:37:50.358 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+2021-08-02 20:37:50.434 +02:00 [INF] Executing ViewResult, running view Create.
+2021-08-02 20:37:50.761 +02:00 [INF] Executed ViewResult - view Create executed in 326.9188ms.
+2021-08-02 20:37:50.761 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Create (ReadLater5) in 433.9745ms
+2021-08-02 20:37:50.761 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Create (ReadLater5)'
+2021-08-02 20:37:50.763 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks/Create - - - 200 - text/html;+charset=utf-8 447.8645ms
+2021-08-02 20:37:51.643 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/select2/css/select2.min.css - -
+2021-08-02 20:37:51.698 +02:00 [INF] The file /lib/select2/css/select2.min.css was not modified
+2021-08-02 20:37:51.700 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/select2/css/select2.min.css - - - 304 - text/css 57.3459ms
+2021-08-02 20:37:51.987 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/jquery-validation/dist/jquery.validate.min.js - -
+2021-08-02 20:37:51.987 +02:00 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2021-08-02 20:37:51.987 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/jquery-validation/dist/jquery.validate.min.js - - - 304 - application/javascript 0.4382ms
+2021-08-02 20:37:51.989 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+2021-08-02 20:37:51.990 +02:00 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2021-08-02 20:37:51.990 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 304 - application/javascript 0.3777ms
+2021-08-02 20:37:52.043 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/js/select2.js - -
+2021-08-02 20:37:52.043 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/select2/js/select2.full.min.js - -
+2021-08-02 20:37:52.044 +02:00 [INF] The file /lib/select2/js/select2.full.min.js was not modified
+2021-08-02 20:37:52.044 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/select2/js/select2.full.min.js - - - 304 - application/javascript 0.4596ms
+2021-08-02 20:37:52.049 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/js/select2.js - - - 404 - - 5.1375ms
+2021-08-02 20:37:52.955 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/js/select2.js - -
+2021-08-02 20:37:52.956 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/js/select2.js - - - 404 - - 1.1237ms
+2021-08-02 20:38:05.362 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Bookmarks/Create application/x-www-form-urlencoded 323
+2021-08-02 20:38:05.364 +02:00 [INF] Authorization was successful.
+2021-08-02 20:38:05.364 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Create (ReadLater5)'
+2021-08-02 20:38:05.375 +02:00 [INF] Route matched with {action = "Create", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(Entity.Bookmark) on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-02 20:41:12.911 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 20:41:13.189 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 20:41:13.189 +02:00 [INF] Hosting environment: Development
+2021-08-02 20:41:13.189 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 20:41:13.234 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 20:41:13.485 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:41:13.524 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 20:41:13.536 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:41:13.731 +02:00 [INF] Executed ViewResult - view Index executed in 196.5688ms.
+2021-08-02 20:41:13.733 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 208.2894ms
+2021-08-02 20:41:13.734 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:41:13.752 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 519.6722ms
+2021-08-02 20:41:17.150 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks - -
+2021-08-02 20:41:17.163 +02:00 [INF] Authorization was successful.
+2021-08-02 20:41:17.163 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-02 20:41:17.164 +02:00 [INF] Route matched with {action = "Index", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-02 20:41:17.780 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:41:18.418 +02:00 [INF] Executed DbCommand (34ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-02 20:41:18.439 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+2021-08-02 20:41:18.482 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:41:18.497 +02:00 [INF] Executed ViewResult - view Index executed in 15.531ms.
+2021-08-02 20:41:18.498 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Index (ReadLater5) in 1333.9661ms
+2021-08-02 20:41:18.499 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-02 20:41:18.506 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks - - - 200 - text/html;+charset=utf-8 1355.4709ms
+2021-08-02 20:41:19.531 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks/Create - -
+2021-08-02 20:41:19.543 +02:00 [INF] Authorization was successful.
+2021-08-02 20:41:19.544 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Create (ReadLater5)'
+2021-08-02 20:41:19.545 +02:00 [INF] Route matched with {action = "Create", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-02 20:41:19.586 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:41:19.588 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+2021-08-02 20:41:19.630 +02:00 [INF] Executing ViewResult, running view Create.
+2021-08-02 20:41:19.687 +02:00 [INF] Executed ViewResult - view Create executed in 57.3647ms.
+2021-08-02 20:41:19.687 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Create (ReadLater5) in 142.3385ms
+2021-08-02 20:41:19.687 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Create (ReadLater5)'
+2021-08-02 20:41:19.687 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks/Create - - - 200 - text/html;+charset=utf-8 156.4295ms
+2021-08-02 20:41:19.854 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/js/select2.js - -
+2021-08-02 20:41:19.858 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/js/select2.js - - - 404 - - 3.8331ms
+2021-08-02 20:41:19.920 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/js/select2.js - -
+2021-08-02 20:41:19.922 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/js/select2.js - - - 404 - - 1.0691ms
+2021-08-02 20:41:31.762 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Bookmarks/Create application/x-www-form-urlencoded 323
+2021-08-02 20:41:31.765 +02:00 [INF] Authorization was successful.
+2021-08-02 20:41:31.766 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Create (ReadLater5)'
+2021-08-02 20:41:31.781 +02:00 [INF] Route matched with {action = "Create", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(Entity.Bookmark) on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-02 20:46:38.925 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 20:46:39.207 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 20:46:39.208 +02:00 [INF] Hosting environment: Development
+2021-08-02 20:46:39.208 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 20:46:39.265 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 20:46:39.603 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:46:39.645 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 20:46:39.670 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:46:39.835 +02:00 [INF] Executed ViewResult - view Index executed in 178.5251ms.
+2021-08-02 20:46:39.836 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 190.7674ms
+2021-08-02 20:46:39.837 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:46:39.844 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 582.3628ms
+2021-08-02 20:46:42.636 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks - -
+2021-08-02 20:46:42.656 +02:00 [INF] Authorization was successful.
+2021-08-02 20:46:42.657 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-02 20:46:42.663 +02:00 [INF] Route matched with {action = "Index", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-02 20:46:43.314 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:46:44.113 +02:00 [INF] Executed DbCommand (46ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-02 20:46:44.136 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+2021-08-02 20:46:44.187 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:46:44.204 +02:00 [INF] Executed ViewResult - view Index executed in 17.3035ms.
+2021-08-02 20:46:44.204 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Index (ReadLater5) in 1540.9326ms
+2021-08-02 20:46:44.204 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-02 20:46:44.207 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks - - - 200 - text/html;+charset=utf-8 1570.4552ms
+2021-08-02 20:46:45.395 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks/Create - -
+2021-08-02 20:46:45.408 +02:00 [INF] Authorization was successful.
+2021-08-02 20:46:45.408 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Create (ReadLater5)'
+2021-08-02 20:46:45.409 +02:00 [INF] Route matched with {action = "Create", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-02 20:46:45.454 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:46:45.458 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+2021-08-02 20:46:45.502 +02:00 [INF] Executing ViewResult, running view Create.
+2021-08-02 20:46:45.571 +02:00 [INF] Executed ViewResult - view Create executed in 69.7216ms.
+2021-08-02 20:46:45.571 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Create (ReadLater5) in 161.4384ms
+2021-08-02 20:46:45.571 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Create (ReadLater5)'
+2021-08-02 20:46:45.572 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks/Create - - - 200 - text/html;+charset=utf-8 177.0126ms
+2021-08-02 20:46:45.650 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/js/select2.js - -
+2021-08-02 20:46:45.655 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/js/select2.js - - - 404 - - 4.6252ms
+2021-08-02 20:46:45.960 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/js/select2.js - -
+2021-08-02 20:46:45.962 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/js/select2.js - - - 404 - - 2.0911ms
+2021-08-02 20:46:50.583 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Bookmarks/Create application/x-www-form-urlencoded 286
+2021-08-02 20:46:50.604 +02:00 [INF] Authorization was successful.
+2021-08-02 20:46:50.606 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Create (ReadLater5)'
+2021-08-02 20:46:50.687 +02:00 [INF] Route matched with {action = "Create", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(Entity.Bookmark) on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-02 20:46:50.740 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:46:50.894 +02:00 [INF] Executed DbCommand (146ms) [Parameters=[@__Name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+WHERE [c].[Name] = @__Name_0
+2021-08-02 20:47:02.179 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__Name_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+WHERE [c].[Name] = @__Name_0
+2021-08-02 20:47:03.901 +02:00 [INF] Executed DbCommand (122ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 500), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Bookmark] ([CategoryId], [CreateDate], [ShortDescription], [URL], [UserID])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [ID]
+FROM [Bookmark]
+WHERE @@ROWCOUNT = 1 AND [ID] = scope_identity();
+2021-08-02 20:47:03.954 +02:00 [INF] Executing RedirectResult, redirecting to /Bookmarks.
+2021-08-02 20:47:03.955 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Create (ReadLater5) in 13268.1084ms
+2021-08-02 20:47:03.955 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Create (ReadLater5)'
+2021-08-02 20:47:03.975 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Bookmarks/Create application/x-www-form-urlencoded 286 - 302 - - 13391.7224ms
+2021-08-02 20:47:03.978 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks - -
+2021-08-02 20:47:03.978 +02:00 [INF] Authorization was successful.
+2021-08-02 20:47:03.979 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-02 20:47:03.979 +02:00 [INF] Route matched with {action = "Index", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-02 20:47:03.979 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:47:04.010 +02:00 [INF] Executed DbCommand (31ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-02 20:47:04.015 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+2021-08-02 20:47:05.370 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:47:05.393 +02:00 [INF] Executed ViewResult - view Index executed in 22.9483ms.
+2021-08-02 20:47:05.393 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Index (ReadLater5) in 1414.4042ms
+2021-08-02 20:47:05.393 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-02 20:47:05.394 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks - - - 200 - text/html;+charset=utf-8 1415.9169ms
+2021-08-02 20:47:19.387 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/GetCategories - -
+2021-08-02 20:47:19.388 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetCategories (ReadLater5)'
+2021-08-02 20:47:19.401 +02:00 [INF] Route matched with {action = "GetCategories", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetCategories() on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 20:47:23.439 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:47:23.444 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+2021-08-02 20:49:57.756 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 20:49:58.019 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 20:49:58.019 +02:00 [INF] Hosting environment: Development
+2021-08-02 20:49:58.019 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 20:49:58.062 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 20:49:58.617 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:49:58.687 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 20:49:58.702 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:49:58.843 +02:00 [INF] Executed ViewResult - view Index executed in 148.3809ms.
+2021-08-02 20:49:58.845 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 157.3631ms
+2021-08-02 20:49:58.846 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:49:58.858 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 798.2556ms
+2021-08-02 20:50:01.834 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks - -
+2021-08-02 20:50:01.851 +02:00 [INF] Authorization was successful.
+2021-08-02 20:50:01.852 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-02 20:50:01.855 +02:00 [INF] Route matched with {action = "Index", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-02 20:50:02.811 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:50:03.863 +02:00 [INF] Executed DbCommand (39ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-02 20:50:03.960 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+2021-08-02 20:50:10.242 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:50:10.589 +02:00 [INF] Executed ViewResult - view Index executed in 353.2011ms.
+2021-08-02 20:50:10.589 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Index (ReadLater5) in 8733.8761ms
+2021-08-02 20:50:10.589 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-02 20:50:10.595 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks - - - 200 - text/html;+charset=utf-8 8760.5040ms
+2021-08-02 20:50:15.630 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/GetCategories - -
+2021-08-02 20:50:15.634 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetCategories (ReadLater5)'
+2021-08-02 20:50:15.641 +02:00 [INF] Route matched with {action = "GetCategories", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetCategories() on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 20:50:24.874 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:50:24.879 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+2021-08-02 20:51:16.488 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-08-02 20:51:16.489 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetCategories (ReadLater5) in 60848.1539ms
+2021-08-02 20:51:16.489 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetCategories (ReadLater5)'
+2021-08-02 20:51:16.489 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/GetCategories - - - 0 - text/plain;+charset=utf-8 60859.2546ms
+2021-08-02 20:53:12.514 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 20:53:12.948 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 20:53:12.949 +02:00 [INF] Hosting environment: Development
+2021-08-02 20:53:12.949 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 20:53:12.990 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 20:53:13.262 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:53:13.313 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 20:53:13.336 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:53:13.604 +02:00 [INF] Executed ViewResult - view Index executed in 275.7263ms.
+2021-08-02 20:53:13.610 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 295.5102ms
+2021-08-02 20:53:13.612 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 20:53:13.651 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 662.8525ms
+2021-08-02 20:53:16.141 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks - -
+2021-08-02 20:53:16.157 +02:00 [INF] Authorization was successful.
+2021-08-02 20:53:16.157 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-02 20:53:16.159 +02:00 [INF] Route matched with {action = "Index", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-02 20:53:17.030 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:53:17.825 +02:00 [INF] Executed DbCommand (50ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-02 20:53:17.901 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+2021-08-02 20:53:19.874 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 20:53:19.928 +02:00 [INF] Executed ViewResult - view Index executed in 54.4415ms.
+2021-08-02 20:53:19.928 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Index (ReadLater5) in 3769.3861ms
+2021-08-02 20:53:19.928 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-02 20:53:19.933 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks - - - 200 - text/html;+charset=utf-8 3792.3055ms
+2021-08-02 20:53:40.072 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/GetCategories - -
+2021-08-02 20:53:40.078 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/GetCategories - - - 404 - - 6.3231ms
+2021-08-02 20:54:00.903 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/GetBookmarks - -
+2021-08-02 20:54:00.905 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarks (ReadLater5)'
+2021-08-02 20:54:00.911 +02:00 [INF] Route matched with {action = "GetBookmarks", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Services.Features.QueryBookmarks+Response] GetBookmarks() on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 20:54:02.784 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 20:54:02.791 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+2021-08-02 20:54:02.800 +02:00 [INF] Executing ObjectResult, writing value of type 'Services.Features.QueryBookmarks+Response'.
+2021-08-02 20:54:02.858 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarks (ReadLater5) in 1946.7565ms
+2021-08-02 20:54:02.858 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarks (ReadLater5)'
+2021-08-02 20:54:02.859 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/GetBookmarks - - - 200 - application/json;+charset=utf-8 1955.1419ms
+2021-08-02 21:01:30.245 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 21:01:30.781 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 21:01:30.781 +02:00 [INF] Hosting environment: Development
+2021-08-02 21:01:30.782 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 21:01:30.937 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 21:01:32.011 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 21:01:32.035 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 21:01:32.049 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 21:01:32.236 +02:00 [INF] Executed ViewResult - view Index executed in 189.0431ms.
+2021-08-02 21:01:32.239 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 202.9577ms
+2021-08-02 21:01:32.239 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 21:01:32.257 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 1321.9953ms
+2021-08-02 21:02:00.748 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - -
+2021-08-02 21:02:00.789 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:02:00.927 +02:00 [INF] Route matched with {action = "GetBookmarksById", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Services.Features.QueryBookmarks+Response] GetBookmarksById(System.String) on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 21:02:08.624 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 21:02:10.056 +02:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+2021-08-02 21:02:17.510 +02:00 [INF] Executing ObjectResult, writing value of type 'Services.Features.QueryBookmarks+Response'.
+2021-08-02 21:02:17.543 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5) in 16615.9064ms
+2021-08-02 21:02:17.543 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:02:17.562 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - - - 200 - application/json;+charset=utf-8 16814.3738ms
+2021-08-02 21:02:33.080 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - -
+2021-08-02 21:02:33.087 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:02:33.087 +02:00 [INF] Route matched with {action = "GetBookmarksById", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Services.Features.QueryBookmarks+Response] GetBookmarksById(System.String) on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 21:02:39.440 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 21:02:39.445 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+2021-08-02 21:02:39.446 +02:00 [INF] Executing ObjectResult, writing value of type 'Services.Features.QueryBookmarks+Response'.
+2021-08-02 21:02:39.448 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5) in 6359.9957ms
+2021-08-02 21:02:39.448 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:02:39.448 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - - - 200 - application/json;+charset=utf-8 6368.6103ms
+2021-08-02 21:04:22.362 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 21:04:22.636 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 21:04:22.637 +02:00 [INF] Hosting environment: Development
+2021-08-02 21:04:22.637 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 21:04:22.683 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 21:04:23.175 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 21:04:23.223 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 21:04:23.250 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 21:04:23.418 +02:00 [INF] Executed ViewResult - view Index executed in 180.8333ms.
+2021-08-02 21:04:23.420 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 195.6131ms
+2021-08-02 21:04:23.421 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 21:04:23.437 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 755.5778ms
+2021-08-02 21:04:34.835 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb - -
+2021-08-02 21:04:34.841 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:04:34.880 +02:00 [INF] Route matched with {action = "GetBookmarksById", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Services.Features.QueryBookmarks+Response] GetBookmarksById(System.String) on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 21:04:39.362 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 21:04:40.213 +02:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+2021-08-02 21:04:40.322 +02:00 [INF] Executing ObjectResult, writing value of type 'Services.Features.QueryBookmarks+Response'.
+2021-08-02 21:04:40.376 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5) in 5495.3246ms
+2021-08-02 21:04:40.377 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:04:40.384 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb - - - 200 - application/json;+charset=utf-8 5549.2737ms
+2021-08-02 21:04:52.330 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb - -
+2021-08-02 21:04:52.340 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:04:52.340 +02:00 [INF] Route matched with {action = "GetBookmarksById", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Services.Features.QueryBookmarks+Response] GetBookmarksById(System.String) on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 21:04:59.483 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 21:04:59.488 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+2021-08-02 21:06:00.721 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 21:06:01.020 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 21:06:01.021 +02:00 [INF] Hosting environment: Development
+2021-08-02 21:06:01.021 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 21:06:01.080 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 21:06:02.174 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 21:06:03.304 +02:00 [INF] Executed DbCommand (252ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2021-08-02 21:06:03.478 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-08-02 21:06:03.489 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 21:06:03.509 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 21:06:03.520 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 21:06:03.676 +02:00 [INF] Executed ViewResult - view Index executed in 159.7149ms.
+2021-08-02 21:06:03.677 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 167.4798ms
+2021-08-02 21:06:03.677 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 21:06:03.688 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 2610.0154ms
+2021-08-02 21:06:11.391 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb - -
+2021-08-02 21:06:11.401 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:06:11.422 +02:00 [INF] Route matched with {action = "GetBookmarksById", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Services.Features.QueryBookmarksById+Response] GetBookmarksById(System.String) on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 21:06:18.167 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 21:06:18.232 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-02 21:06:20.850 +02:00 [ERR] No Bookmarks for the user were found
+2021-08-02 21:06:27.345 +02:00 [INF] Executing ObjectResult, writing value of type 'Services.Features.QueryBookmarksById+Response'.
+2021-08-02 21:06:29.399 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5) in 17976.398ms
+2021-08-02 21:06:29.399 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:06:29.399 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb - - - 200 - application/json;+charset=utf-8 18008.5959ms
+2021-08-02 21:06:43.845 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - -
+2021-08-02 21:06:43.852 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:06:43.854 +02:00 [INF] Route matched with {action = "GetBookmarksById", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Services.Features.QueryBookmarksById+Response] GetBookmarksById(System.String) on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 21:06:47.906 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 21:06:47.920 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-02 21:06:58.810 +02:00 [INF] Executing ObjectResult, writing value of type 'Services.Features.QueryBookmarksById+Response'.
+2021-08-02 21:06:58.832 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5) in 14977.4748ms
+2021-08-02 21:06:58.832 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:06:58.832 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - - - 200 - application/json;+charset=utf-8 14998.2345ms
+2021-08-02 21:07:25.629 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - -
+2021-08-02 21:07:25.631 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:07:25.634 +02:00 [INF] Route matched with {action = "GetBookmarksById", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Services.Features.QueryBookmarksById+Response] GetBookmarksById(System.String) on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 21:07:29.302 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 21:07:29.319 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-02 21:07:45.153 +02:00 [INF] Executing ObjectResult, writing value of type 'Services.Features.QueryBookmarksById+Response'.
+2021-08-02 21:07:50.457 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5) in 24822.59ms
+2021-08-02 21:07:50.457 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:07:50.457 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - - - 200 - application/json;+charset=utf-8 24827.7182ms
+2021-08-02 21:08:35.079 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 21:08:35.423 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 21:08:35.423 +02:00 [INF] Hosting environment: Development
+2021-08-02 21:08:35.423 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 21:08:35.470 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 21:08:35.704 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 21:08:35.725 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 21:08:35.736 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 21:08:35.886 +02:00 [INF] Executed ViewResult - view Index executed in 153.7861ms.
+2021-08-02 21:08:35.887 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 161.3406ms
+2021-08-02 21:08:35.888 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 21:08:35.915 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 446.2693ms
+2021-08-02 21:08:42.042 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - -
+2021-08-02 21:08:42.066 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:08:42.142 +02:00 [INF] Route matched with {action = "GetBookmarksById", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Services.Features.QueryBookmarksById+Response] GetBookmarksById(System.String) on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 21:08:47.790 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 21:08:48.791 +02:00 [INF] Executed DbCommand (44ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-02 21:09:03.698 +02:00 [INF] Executing ObjectResult, writing value of type 'Services.Features.QueryBookmarksById+Response'.
+2021-08-02 21:09:08.003 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5) in 25861.2516ms
+2021-08-02 21:09:08.003 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 21:09:08.006 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - - - 200 - application/json;+charset=utf-8 25981.1016ms
+2021-08-02 21:41:27.402 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 21:41:28.166 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 21:41:28.167 +02:00 [INF] Hosting environment: Development
+2021-08-02 21:41:28.167 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 21:41:28.294 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 21:41:28.509 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 21:41:28.576 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 21:41:28.591 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 21:41:29.310 +02:00 [INF] Executed ViewResult - view Index executed in 721.6534ms.
+2021-08-02 21:41:29.314 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 737.462ms
+2021-08-02 21:41:29.315 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 21:41:29.344 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 1053.0598ms
+2021-08-02 21:41:45.825 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - -
+2021-08-02 21:41:45.968 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: Identity.Application, Identity.External, Identity.TwoFactorRememberMe, Identity.TwoFactorUserId, Google, Facebook. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-02 21:41:47.869 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 21:41:52.742 +02:00 [INF] Executed DbCommand (157ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 21:41:56.719 +02:00 [INF] Executed DbCommand (3,888ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2021-08-02 21:41:56.964 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 21:41:57.134 +02:00 [INF] Executed DbCommand (165ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-08-02 21:41:57.877 +02:00 [INF] Executed DbCommand (622ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-08-02 21:41:57.966 +02:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+2021-08-02 21:41:57.998 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - - - 500 - text/plain 12173.3665ms
+2021-08-02 22:27:50.653 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 22:27:51.196 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 22:27:51.196 +02:00 [INF] Hosting environment: Development
+2021-08-02 22:27:51.197 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 22:27:51.272 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 22:27:51.582 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 22:27:51.734 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 22:27:51.755 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 22:27:52.476 +02:00 [INF] Executed ViewResult - view Index executed in 729.0192ms.
+2021-08-02 22:27:52.479 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 743.6779ms
+2021-08-02 22:27:52.480 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 22:27:52.492 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 1222.7298ms
+2021-08-02 22:28:07.207 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - -
+2021-08-02 22:28:07.289 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: Identity.Application, Identity.External, Identity.TwoFactorRememberMe, Identity.TwoFactorUserId, Google, Facebook. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-02 22:28:09.107 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 22:28:10.968 +02:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 22:28:11.070 +02:00 [INF] Executed DbCommand (79ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2021-08-02 22:28:11.189 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 22:28:11.296 +02:00 [INF] Executed DbCommand (96ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-08-02 22:28:11.340 +02:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-08-02 22:28:11.395 +02:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+2021-08-02 22:28:11.406 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - - - 500 - text/plain 4199.1285ms
+2021-08-02 22:28:23.061 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44326/api/token application/json 74
+2021-08-02 22:28:23.065 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5)'
+2021-08-02 22:28:23.142 +02:00 [INF] Route matched with {action = "CreateToken", controller = "Authenticate", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateToken(Services.LognModel.LoginViewModel) on controller ReadLater5.Controllers.AuthenticateController (ReadLater5).
+2021-08-02 22:28:29.717 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 22:28:30.423 +02:00 [INF] Executed DbCommand (59ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2021-08-02 22:28:30.927 +02:00 [INF] Executed action ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5) in 7785.1352ms
+2021-08-02 22:28:30.947 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5)'
+2021-08-02 22:28:30.950 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at ReadLater5.Controllers.AuthenticateController.CreateToken(LoginViewModel model) in D:\Projects\readLater\ReadLater5\ReadLater5\Controllers\AuthenticateController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-02 22:28:32.908 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 22:28:32.922 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2021-08-02 22:28:32.931 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 22:28:32.933 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-08-02 22:28:32.937 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-08-02 22:28:32.938 +02:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+2021-08-02 22:28:32.939 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44326/api/token application/json 74 - 500 - text/plain 9877.9944ms
+2021-08-02 22:29:30.333 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44326/api/token application/json 74
+2021-08-02 22:29:30.347 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5)'
+2021-08-02 22:29:30.347 +02:00 [INF] Route matched with {action = "CreateToken", controller = "Authenticate", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateToken(Services.LognModel.LoginViewModel) on controller ReadLater5.Controllers.AuthenticateController (ReadLater5).
+2021-08-02 22:29:48.555 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 22:29:48.585 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2021-08-02 22:30:05.722 +02:00 [INF] Executed action ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5) in 35375.1159ms
+2021-08-02 22:30:05.723 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5)'
+2021-08-02 22:30:05.723 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at ReadLater5.Controllers.AuthenticateController.CreateToken(LoginViewModel model) in D:\Projects\readLater\ReadLater5\ReadLater5\Controllers\AuthenticateController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-02 22:30:05.736 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 22:30:05.769 +02:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2021-08-02 22:30:05.774 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 22:30:05.775 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-08-02 22:30:05.778 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-08-02 22:30:05.778 +02:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+2021-08-02 22:30:05.779 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44326/api/token application/json 74 - 500 - text/plain 35447.6189ms
+2021-08-02 22:31:58.762 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 22:31:59.114 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 22:31:59.114 +02:00 [INF] Hosting environment: Development
+2021-08-02 22:31:59.114 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 22:31:59.158 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 22:31:59.301 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 22:31:59.371 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 22:31:59.400 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 22:32:00.268 +02:00 [INF] Executed ViewResult - view Index executed in 877.4339ms.
+2021-08-02 22:32:00.271 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 897.3336ms
+2021-08-02 22:32:00.273 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 22:32:00.293 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 1136.7842ms
+2021-08-02 22:32:06.442 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44326/api/token application/json 74
+2021-08-02 22:32:06.446 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5)'
+2021-08-02 22:32:06.490 +02:00 [INF] Route matched with {action = "CreateToken", controller = "Authenticate", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateToken(Services.LognModel.LoginViewModel) on controller ReadLater5.Controllers.AuthenticateController (ReadLater5).
+2021-08-02 22:32:11.735 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 22:32:14.085 +02:00 [INF] Executed DbCommand (58ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2021-08-02 22:32:26.929 +02:00 [INF] Executed action ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5) in 20439.0939ms
+2021-08-02 22:32:26.930 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5)'
+2021-08-02 22:32:26.934 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at ReadLater5.Controllers.AuthenticateController.CreateToken(LoginViewModel model) in D:\Projects\readLater\ReadLater5\ReadLater5\Controllers\AuthenticateController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-02 22:32:27.350 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 22:32:27.406 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2021-08-02 22:32:27.507 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 22:32:27.514 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-08-02 22:32:27.522 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-08-02 22:32:27.586 +02:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+2021-08-02 22:32:27.611 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44326/api/token application/json 74 - 500 - text/plain 21169.0763ms
+2021-08-02 22:32:58.635 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 22:32:58.980 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 22:32:58.980 +02:00 [INF] Hosting environment: Development
+2021-08-02 22:32:58.980 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 22:32:59.025 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 22:32:59.119 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 22:32:59.200 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 22:32:59.231 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 22:32:59.913 +02:00 [INF] Executed ViewResult - view Index executed in 693.4289ms.
+2021-08-02 22:32:59.916 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 715.3993ms
+2021-08-02 22:32:59.918 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 22:32:59.949 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 925.0532ms
+2021-08-02 22:33:05.442 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44326/api/token application/json 74
+2021-08-02 22:33:05.450 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5)'
+2021-08-02 22:33:05.566 +02:00 [INF] Route matched with {action = "CreateToken", controller = "Authenticate", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateToken(Services.LognModel.LoginViewModel) on controller ReadLater5.Controllers.AuthenticateController (ReadLater5).
+2021-08-02 22:33:09.229 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 22:33:10.414 +02:00 [INF] Executed DbCommand (231ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2021-08-02 22:33:30.221 +02:00 [INF] Executing CreatedResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-08-02 22:33:30.287 +02:00 [INF] Executed action ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5) in 24720.6438ms
+2021-08-02 22:33:30.288 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5)'
+2021-08-02 22:33:30.315 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44326/api/token application/json 74 - 201 - application/json;+charset=utf-8 24873.4014ms
+2021-08-02 22:35:22.999 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44326/api/token application/json 74
+2021-08-02 22:35:23.025 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5)'
+2021-08-02 22:35:23.026 +02:00 [INF] Route matched with {action = "CreateToken", controller = "Authenticate", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateToken(Services.LognModel.LoginViewModel) on controller ReadLater5.Controllers.AuthenticateController (ReadLater5).
+2021-08-02 22:35:26.974 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 22:35:27.010 +02:00 [INF] Executed DbCommand (32ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2021-08-02 22:35:51.060 +02:00 [INF] Executing CreatedResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-08-02 22:35:51.228 +02:00 [INF] Executed action ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5) in 28202.0489ms
+2021-08-02 22:35:51.229 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5)'
+2021-08-02 22:35:51.229 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44326/api/token application/json 74 - 201 - application/json;+charset=utf-8 28229.5503ms
+2021-08-02 22:37:08.355 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 22:37:10.428 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 22:37:10.429 +02:00 [INF] Hosting environment: Development
+2021-08-02 22:37:10.429 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 22:37:10.495 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 22:37:10.804 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 22:37:10.864 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 22:37:10.886 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 22:37:11.589 +02:00 [INF] Executed ViewResult - view Index executed in 714.1212ms.
+2021-08-02 22:37:11.592 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 726.6736ms
+2021-08-02 22:37:11.593 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 22:37:11.601 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 1109.1598ms
+2021-08-02 22:37:33.533 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44326/api/token application/json 74
+2021-08-02 22:37:33.579 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5)'
+2021-08-02 22:37:33.684 +02:00 [INF] Route matched with {action = "CreateToken", controller = "Authenticate", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateToken(Services.LognModel.LoginViewModel) on controller ReadLater5.Controllers.AuthenticateController (ReadLater5).
+2021-08-02 22:37:37.563 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 22:37:39.453 +02:00 [INF] Executed DbCommand (126ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2021-08-02 22:37:40.119 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-08-02 22:37:40.163 +02:00 [INF] Executed action ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5) in 6478.5131ms
+2021-08-02 22:37:40.164 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.AuthenticateController.CreateToken (ReadLater5)'
+2021-08-02 22:37:40.168 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44326/api/token application/json 74 - 200 - application/json;+charset=utf-8 6635.1306ms
+2021-08-02 22:38:02.992 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - -
+2021-08-02 22:38:03.035 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: Identity.Application, Identity.External, Identity.TwoFactorRememberMe, Identity.TwoFactorUserId, Google, Facebook. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-02 22:38:04.245 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 22:38:04.316 +02:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 22:38:04.381 +02:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2021-08-02 22:38:04.454 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 22:38:04.462 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-08-02 22:38:04.476 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-08-02 22:38:04.495 +02:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+2021-08-02 22:38:04.501 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - - - 500 - text/plain 1508.6420ms
+2021-08-02 22:38:17.063 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - -
+2021-08-02 22:38:17.108 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authentication handler is registered for the scheme 'Bearer'. The registered schemes are: Identity.Application, Identity.External, Identity.TwoFactorRememberMe, Identity.TwoFactorUserId, Google, Facebook. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("Bearer",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-02 22:38:17.118 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 22:38:17.123 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 22:38:17.141 +02:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2021-08-02 22:38:17.148 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2021-08-02 22:38:17.150 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-08-02 22:38:17.154 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-08-02 22:38:17.155 +02:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+2021-08-02 22:38:17.155 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - - - 500 - text/plain 91.7377ms
+2021-08-02 22:42:39.060 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-02 22:42:39.475 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-02 22:42:39.476 +02:00 [INF] Hosting environment: Development
+2021-08-02 22:42:39.476 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-02 22:42:39.529 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-02 22:42:41.790 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 22:42:41.849 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-02 22:42:41.861 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-02 22:42:42.221 +02:00 [INF] Executed ViewResult - view Index executed in 362.7664ms.
+2021-08-02 22:42:42.222 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 372.1656ms
+2021-08-02 22:42:42.223 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-02 22:42:42.239 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 2711.1639ms
+2021-08-02 22:42:48.579 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - -
+2021-08-02 22:42:49.780 +02:00 [INF] Successfully validated the token.
+2021-08-02 22:42:49.789 +02:00 [INF] Authorization was successful.
+2021-08-02 22:42:49.790 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 22:42:49.820 +02:00 [INF] Route matched with {action = "GetBookmarksById", controller = "BookmarkCategoriesWebApi", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Services.Features.QueryBookmarksById+Response] GetBookmarksById(System.String) on controller ReadLater5.Controllers.BookmarkCategoriesWebApiController (ReadLater5).
+2021-08-02 22:42:55.061 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-02 22:42:57.268 +02:00 [INF] Executed DbCommand (242ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-02 22:42:57.395 +02:00 [INF] Executing ObjectResult, writing value of type 'Services.Features.QueryBookmarksById+Response'.
+2021-08-02 22:42:57.471 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5) in 7650.1627ms
+2021-08-02 22:42:57.471 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarkCategoriesWebApiController.GetBookmarksById (ReadLater5)'
+2021-08-02 22:42:57.480 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - - - 200 - application/json;+charset=utf-8 8900.2854ms
+2021-08-02 22:43:04.049 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - -
+2021-08-02 22:43:04.064 +02:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX12729: Unable to decode the header 'System.String' as Base64Url encoded string. jwtEncodedString: 'System.String'.
+ ---> Microsoft.IdentityModel.Json.JsonReaderException: Unexpected character encountered while parsing value: Ș. Path '', line 0, position 0.
+   at Microsoft.IdentityModel.Json.JsonTextReader.ParseValue()
+   at Microsoft.IdentityModel.Json.JsonReader.ReadAndMoveToContent()
+   at Microsoft.IdentityModel.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Microsoft.IdentityModel.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Microsoft.IdentityModel.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Microsoft.IdentityModel.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Microsoft.IdentityModel.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Microsoft.IdentityModel.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at System.IdentityModel.Tokens.Jwt.JsonExtensions.DeserializeJwtHeader(String jsonString)
+   at System.IdentityModel.Tokens.Jwt.JwtHeader.Base64UrlDeserialize(String base64UrlEncodedJsonString)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityToken.Decode(String[] tokenParts, String rawData)
+   --- End of inner exception stack trace ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityToken.Decode(String[] tokenParts, String rawData)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2021-08-02 22:43:04.962 +02:00 [INF] Bearer was not authenticated. Failure message: IDX12729: Unable to decode the header 'System.String' as Base64Url encoded string. jwtEncodedString: 'System.String'.
+2021-08-02 22:43:04.963 +02:00 [INF] Bearer was not authenticated. Failure message: IDX12729: Unable to decode the header 'System.String' as Base64Url encoded string. jwtEncodedString: 'System.String'.
+2021-08-02 22:43:04.966 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-08-02 22:43:04.979 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-08-02 22:43:04.988 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44326/api/getbookmarksbyid/27c119ee-3eed-45aa-a083-d55bd675acb6 - - - 401 - - 938.7496ms

@@ -1,8 +1,10 @@
 ﻿using Data;
 using Entity;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,13 +13,17 @@ namespace Services
     public class CategoryService : ICategoryService
     {
         private ReadLaterDataContext _ReadLaterDataContext;
-        public CategoryService(ReadLaterDataContext readLaterDataContext) 
+
+
+        public CategoryService(ReadLaterDataContext readLaterDataContext)
         {
-            _ReadLaterDataContext = readLaterDataContext;            
+            _ReadLaterDataContext = readLaterDataContext;
         }
+      
 
         public Category CreateCategory(Category category)
         {
+            
             _ReadLaterDataContext.Add(category);
             _ReadLaterDataContext.SaveChanges();
             return category;
@@ -48,6 +54,11 @@ namespace Services
         {
             _ReadLaterDataContext.Categories.Remove(category);
             _ReadLaterDataContext.SaveChanges();
+        }
+
+        public List<Category> GetCategoriesByUser(string userId)
+        {
+            return _ReadLaterDataContext.Categories.Where(c => c.UserID == userId).ToList();
         }
     }
 }

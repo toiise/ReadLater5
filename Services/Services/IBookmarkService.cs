@@ -14,5 +14,6 @@ namespace Services
         Bookmark GetBookmarkById(int Id);
         void UpdateBookmark(Bookmark bookmark);
         void DeleteBookmark(Bookmark bookmark);
+        List<Bookmark> GetBookmarksByUser(string userId);
     }
 }

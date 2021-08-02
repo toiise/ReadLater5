@@ -4,6 +4,12 @@
     ViewData["Title"] = "Create";
 }
 
+<head>
+    <link href="~/lib/select2/css/select2.min.css" rel="stylesheet" />
+    <!-- select2-bootstrap4-theme -->
+    <link href="https://raw.githack.com/ttskch/select2-bootstrap4-theme/master/dist/select2-bootstrap4.css" rel="stylesheet">
+</head>
+
 <style>
     /*--thank you pop starts here--*/
     .thank-you-pop{
@@ -84,14 +90,16 @@
                 <span asp-validation-for="ShortDescription" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CategoryId" class="control-label"></label>
-                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+                <label asp-for="Category.Name" class="control-label"></label>
+                @*<select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>*@
+                @*<select asp-for="Category.Name"
+                        class="form-control"
+                        asp-items="@(new SelectList(ViewBag.test))">
+                </select>*@
+                @Html.DropDownListFor( x=>x.Category.Name, (SelectList)ViewBag.select2, new { @class = "js-example-basic-multiple form-control" })
+                <span asp-validation-for="Category.Name" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="CreateDate" class="control-label"></label>
-                <input asp-for="CreateDate" class="form-control"/>
-                <span asp-validation-for="CreateDate" class="text-danger"></span>
-            </div>
+            
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary"/>
             </div>
@@ -120,7 +128,6 @@
 
 <div class="container">
     <div class="row">
-        <a class="btn btn-primary" data-toggle="modal" href="#ignismyModal">open Popup</a>
         <div class="modal fade" id="ignismyModal" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -148,6 +155,8 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="~/lib/select2/js/select2.full.min.js"></script>
+    <script src="~/js/select2.js"></script>
 
     <script>
         $('#AddCategoryFromBookmark').click(function() {
@@ -175,6 +184,10 @@
                 }
             });
         });
+    </script>
+    
+    <script>
+        $(".js-example-basic-multiple").select2();
     </script>
 
 }

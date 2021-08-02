@@ -5,25 +5,34 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace ReadLater5.Controllers
 {
+    [Authorize]
     public class CategoriesController : Controller
     {
         ICategoryService _categoryService;
+
+
         public CategoriesController(ICategoryService categoryService)
         {
             _categoryService = categoryService;
         }
         // GET: Categories
+       
         public IActionResult Index()
         {
-            List<Category> model = _categoryService.GetCategories();
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            List<Category> model = _categoryService.GetCategoriesByUser(userId);
             return View(model);
         }
 
         // GET: Categories/Details/5
+       
         public IActionResult Details(int? id)
         {
             if (id == null)
@@ -40,6 +49,7 @@ namespace ReadLater5.Controllers
         }
 
         // GET: Categories/Create
+       
         public IActionResult Create()
         {
             return View();
@@ -50,10 +60,13 @@ namespace ReadLater5.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+     
         public IActionResult Create( Category category)
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (ModelState.IsValid)
             {
+                category.UserID = userId;
                 _categoryService.CreateCategory(category);
                 return RedirectToAction("Index");
             }
@@ -62,6 +75,7 @@ namespace ReadLater5.Controllers
         }
 
         // GET: Categories/Edit/5
+      
         public IActionResult Edit(int? id)
         {
             if (id == null)
@@ -81,10 +95,13 @@ namespace ReadLater5.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        
         public IActionResult Edit(Category category)
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (ModelState.IsValid)
             {
+                category.UserID = userId;
                 _categoryService.UpdateCategory(category);
                 return RedirectToAction("Index");
             }
@@ -92,6 +109,7 @@ namespace ReadLater5.Controllers
         }
 
         // GET: Categories/Delete/5
+       
         public IActionResult Delete(int? id)
         {
             if (id == null)
@@ -109,6 +127,7 @@ namespace ReadLater5.Controllers
         // POST: Categories/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+       
         public IActionResult DeleteConfirmed(int id)
         {
             Category category = _categoryService.GetCategory(id);

@@ -13,6 +13,7 @@ namespace Services
         List<Category> GetCategories();
         Category GetCategory(int Id);
         Category GetCategory(string Name);
+        List<Category>  GetCategoriesByUser(string userId);
         void UpdateCategory(Category category);
         void DeleteCategory(Category category);
     }
