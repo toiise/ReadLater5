@@ -5958,3 +5958,1337 @@ WHERE [c].[UserID] = @__userId_0
 2021-08-03 15:40:53.796 +02:00 [INF] Executed action ReadLater5.Controllers.CategoriesController.Index (ReadLater5) in 10.5029ms
 2021-08-03 15:40:53.796 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.CategoriesController.Index (ReadLater5)'
 2021-08-03 15:40:53.796 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Categories - - - 200 - text/html;+charset=utf-8 11.9243ms
+2021-08-03 21:50:00.578 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-03 21:50:01.099 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 21:50:01.099 +02:00 [INF] Hosting environment: Development
+2021-08-03 21:50:01.100 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-03 21:50:01.245 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 21:50:01.706 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:50:01.773 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 21:50:01.789 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 21:50:02.595 +02:00 [INF] Executed ViewResult - view Index executed in 809.3742ms.
+2021-08-03 21:50:02.601 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 824.6876ms
+2021-08-03 21:50:02.602 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:50:02.641 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 1403.5063ms
+2021-08-03 21:50:02.656 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/jquery/dist/jquery.min.js - -
+2021-08-03 21:50:02.664 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-08-03 21:50:02.709 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/css/site.css - -
+2021-08-03 21:50:02.710 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2021-08-03 21:50:02.710 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-08-03 21:50:02.725 +02:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2021-08-03 21:50:02.725 +02:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2021-08-03 21:50:02.725 +02:00 [INF] The file /css/site.css was not modified
+2021-08-03 21:50:02.725 +02:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2021-08-03 21:50:02.725 +02:00 [INF] The file /js/site.js was not modified
+2021-08-03 21:50:02.728 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 17.8820ms
+2021-08-03 21:50:02.728 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/css/site.css - - - 304 - text/css 78.2618ms
+2021-08-03 21:50:02.728 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 63.8770ms
+2021-08-03 21:50:02.728 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 18.1204ms
+2021-08-03 21:50:02.728 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 71.3780ms
+2021-08-03 21:50:05.437 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login - -
+2021-08-03 21:50:05.460 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 21:50:05.493 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 21:50:05.520 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:50:05.538 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:50:05.539 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:50:05.544 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:50:05.544 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:50:05.628 +02:00 [INF] Executed page /Account/Login in 129.4375ms
+2021-08-03 21:50:05.628 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 21:50:05.628 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 191.4517ms
+2021-08-03 21:50:07.775 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200
+2021-08-03 21:50:07.784 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:50:07.800 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:50:07.862 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-03 21:50:07.863 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-03 21:50:07.865 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Facebook"]).
+2021-08-03 21:50:07.868 +02:00 [INF] AuthenticationScheme: Facebook was challenged.
+2021-08-03 21:50:07.868 +02:00 [INF] Executed page /Account/ExternalLogin in 68.4984ms
+2021-08-03 21:50:07.868 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:50:07.870 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200 - 302 - - 94.5304ms
+2021-08-03 21:50:08.665 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/signin-facebook?code=AQDc1uzu8ebF7mq5yHcgHLIYpJFlzl7LMpfyZ13Kv2myLQLezriOkLlCQdw_aKGbfeHzf60F_O_OP-6zANZPe_D2mcstT9b--NC2zhp6Ru4ugLP7--oeILTLrk93L4wI5TS2_-cyYTJF8STl7iLbYRaeF81a2ODyfwqzbQdtSw1W14pym2JzI5Q81cEYqpzjBsaa-cIzw6VYs8u1ltXJgEfzGbZ1ZD4YOGZcDZhubg2HZzIFGllHP3GGjF8vxb1au7Lvq7wFgoXJ3tK4InrpID0Ne_xyOGRyyEj8n5fFEQu1pLXgl3O00r7K1fWUaRgX4FsNVdZVrPPy9QDmdqN-afYQ&state=CfDJ8N20G8vYu7JNtrBQlQwhqpnGB0SwMp_qiDSDRG-jRHSRSKKUtGXlj18bdbf5G9YRV61USsFIsYg7Y7TlkwHy7y9BouUnMsPVVSqSxXc_6YXgra2Wn65wyhFaO9v6ZET18cWlhQ4PJggETg7QbJRklVeYeo5GTHBfHTbJ64VbTzJFQTQni80iOTy8wCnBQE_PKFHQ5HhVKUUvCoAmKMXJW6rdNGrP0ivCKcHB1UJ8Y1QDmAvSkALNJ6Blebitk__4hgFxrfwbF0mRQhpzte8iqHAHRX806cFZlikKabeQLeDhWad0oImCiVzW6laJEwUNUg - -
+2021-08-03 21:50:09.960 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2021-08-03 21:50:09.962 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/signin-facebook?code=AQDc1uzu8ebF7mq5yHcgHLIYpJFlzl7LMpfyZ13Kv2myLQLezriOkLlCQdw_aKGbfeHzf60F_O_OP-6zANZPe_D2mcstT9b--NC2zhp6Ru4ugLP7--oeILTLrk93L4wI5TS2_-cyYTJF8STl7iLbYRaeF81a2ODyfwqzbQdtSw1W14pym2JzI5Q81cEYqpzjBsaa-cIzw6VYs8u1ltXJgEfzGbZ1ZD4YOGZcDZhubg2HZzIFGllHP3GGjF8vxb1au7Lvq7wFgoXJ3tK4InrpID0Ne_xyOGRyyEj8n5fFEQu1pLXgl3O00r7K1fWUaRgX4FsNVdZVrPPy9QDmdqN-afYQ&state=CfDJ8N20G8vYu7JNtrBQlQwhqpnGB0SwMp_qiDSDRG-jRHSRSKKUtGXlj18bdbf5G9YRV61USsFIsYg7Y7TlkwHy7y9BouUnMsPVVSqSxXc_6YXgra2Wn65wyhFaO9v6ZET18cWlhQ4PJggETg7QbJRklVeYeo5GTHBfHTbJ64VbTzJFQTQni80iOTy8wCnBQE_PKFHQ5HhVKUUvCoAmKMXJW6rdNGrP0ivCKcHB1UJ8Y1QDmAvSkALNJ6Blebitk__4hgFxrfwbF0mRQhpzte8iqHAHRX806cFZlikKabeQLeDhWad0oImCiVzW6laJEwUNUg - - - 302 - - 1296.3748ms
+2021-08-03 21:50:09.965 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - -
+2021-08-03 21:50:09.965 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:50:09.966 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:50:09.966 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2021-08-03 21:50:11.212 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 21:50:29.754 +02:00 [ERR] An error occurred using the connection to database 'ReadLater' on server 'DESKTOP-PC9UB68\SQLEXPRESS'.
+2021-08-03 21:50:29.867 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Data.ReadLaterDataContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2021-08-03 21:50:29.883 +02:00 [INF] Executed page /Account/ExternalLogin in 19917.2467ms
+2021-08-03 21:50:29.884 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:50:29.888 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserOnlyStore`6.FindByLoginAsync(String loginProvider, String providerKey, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.ExternalLoginSignInAsync(String loginProvider, String providerKey, Boolean isPersistent, Boolean bypassTwoFactor)
+   at Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel`1.OnGetCallbackAsync(String returnUrl, String remoteError)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2021-08-03 21:50:29.991 +02:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.HttpContextDatabaseContextDetailsExtensions.GetContextDetailsAsync(HttpContext httpContext, Type dbcontextType, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2021-08-03 21:50:30.007 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - - - 500 - - 20042.1150ms
+2021-08-03 21:50:32.868 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login - -
+2021-08-03 21:50:32.868 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 21:50:32.868 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 21:50:32.868 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:50:32.869 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:50:32.869 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:50:32.869 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:50:32.869 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:50:32.874 +02:00 [INF] Executed page /Account/Login in 5.5512ms
+2021-08-03 21:50:32.874 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 21:50:32.874 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 6.5503ms
+2021-08-03 21:50:34.431 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 198
+2021-08-03 21:50:34.432 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:50:34.432 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:50:34.449 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-03 21:50:34.449 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-03 21:50:34.449 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Google"]).
+2021-08-03 21:50:34.456 +02:00 [INF] AuthenticationScheme: Google was challenged.
+2021-08-03 21:50:34.457 +02:00 [INF] Executed page /Account/ExternalLogin in 25.2075ms
+2021-08-03 21:50:34.457 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:50:34.469 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 198 - 302 - - 38.2266ms
+2021-08-03 21:50:37.433 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login - -
+2021-08-03 21:50:37.433 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 21:50:37.433 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 21:50:37.434 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:50:37.434 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:50:37.434 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:50:37.434 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:50:37.434 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:50:37.442 +02:00 [INF] Executed page /Account/Login in 8.7648ms
+2021-08-03 21:50:37.442 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 21:50:37.443 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 10.3660ms
+2021-08-03 21:50:51.406 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200
+2021-08-03 21:50:51.407 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:50:51.407 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:50:51.407 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-03 21:50:51.407 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-03 21:50:51.407 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Facebook"]).
+2021-08-03 21:50:51.408 +02:00 [INF] AuthenticationScheme: Facebook was challenged.
+2021-08-03 21:50:51.408 +02:00 [INF] Executed page /Account/ExternalLogin in 0.9942ms
+2021-08-03 21:50:51.408 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:50:51.408 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200 - 302 - - 2.0423ms
+2021-08-03 21:50:51.865 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/signin-facebook?code=AQCVkLp0OKI_oeqPbtnQtw_JdYE_QI7jLEZ2m9edOlIjnl_Jfg10XS9JuYJzwSD0rD6DYxCxw7MNh3_HrrQn0-pj-77kteorz7SOjz-RPWATDzokbsuIiC5FLtvstNtxiXvNVa9WDntWjYVOTL1lfDtn_Nkd0aukAWrVJsxD4eSjg6kDfZYWkIVzuID8Lc4PleOZfNLApr990So1hDMy1eegqnEtGDIlXGxjXg3OWVh4eOj8fcA1EPekpYRzULH8a5_IVvNhGr_BE9W1VzZxdUFuVCGf3w3SgJowA66tgTlj3taiYBcJuYb5lA9l9CuVT0BMB8E7GErwwrMlePSjQ1Fc&state=CfDJ8N20G8vYu7JNtrBQlQwhqplmbUmXhVs0GUSpUS4yA_vMxPsivaG7949NpzkT4vlHrBczWoVvvJ-w971_27_bNWgthQyCXIVvgby3TvC4d3PyuCk5Ca2V1kvs4kGdbK4RTqMrYfdg3qGS_8MDhNrtwIS41bpYge0R1YA5RcOwRXH70fJzanEQWrHAHM7SqAtQYm1VuMiHUG5bXrIU-cIJzg224U2dA2w3zj-MExsZMAtPcvGmohvPkHsXPRaJ8rzRxO1w3Xt6xGKgNpub4HqbueFa444xp4GbUMrjIXsk60CTVgCTKwxY2cdv8RuR6qjmPw - -
+2021-08-03 21:50:52.280 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2021-08-03 21:50:52.281 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/signin-facebook?code=AQCVkLp0OKI_oeqPbtnQtw_JdYE_QI7jLEZ2m9edOlIjnl_Jfg10XS9JuYJzwSD0rD6DYxCxw7MNh3_HrrQn0-pj-77kteorz7SOjz-RPWATDzokbsuIiC5FLtvstNtxiXvNVa9WDntWjYVOTL1lfDtn_Nkd0aukAWrVJsxD4eSjg6kDfZYWkIVzuID8Lc4PleOZfNLApr990So1hDMy1eegqnEtGDIlXGxjXg3OWVh4eOj8fcA1EPekpYRzULH8a5_IVvNhGr_BE9W1VzZxdUFuVCGf3w3SgJowA66tgTlj3taiYBcJuYb5lA9l9CuVT0BMB8E7GErwwrMlePSjQ1Fc&state=CfDJ8N20G8vYu7JNtrBQlQwhqplmbUmXhVs0GUSpUS4yA_vMxPsivaG7949NpzkT4vlHrBczWoVvvJ-w971_27_bNWgthQyCXIVvgby3TvC4d3PyuCk5Ca2V1kvs4kGdbK4RTqMrYfdg3qGS_8MDhNrtwIS41bpYge0R1YA5RcOwRXH70fJzanEQWrHAHM7SqAtQYm1VuMiHUG5bXrIU-cIJzg224U2dA2w3zj-MExsZMAtPcvGmohvPkHsXPRaJ8rzRxO1w3Xt6xGKgNpub4HqbueFa444xp4GbUMrjIXsk60CTVgCTKwxY2cdv8RuR6qjmPw - - - 302 - - 416.0503ms
+2021-08-03 21:50:52.292 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - -
+2021-08-03 21:50:52.293 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:50:52.293 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:50:52.293 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2021-08-03 21:50:52.358 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 21:51:08.575 +02:00 [ERR] An error occurred using the connection to database 'ReadLater' on server 'DESKTOP-PC9UB68\SQLEXPRESS'.
+2021-08-03 21:51:08.578 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Data.ReadLaterDataContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2021-08-03 21:51:08.583 +02:00 [INF] Executed page /Account/ExternalLogin in 16289.9187ms
+2021-08-03 21:51:08.583 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:51:08.584 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserOnlyStore`6.FindByLoginAsync(String loginProvider, String providerKey, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.ExternalLoginSignInAsync(String loginProvider, String providerKey, Boolean isPersistent, Boolean bypassTwoFactor)
+   at Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel`1.OnGetCallbackAsync(String returnUrl, String remoteError)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2021-08-03 21:51:08.592 +02:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.HttpContextDatabaseContextDetailsExtensions.GetContextDetailsAsync(HttpContext httpContext, Type dbcontextType, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2021-08-03 21:51:08.599 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - - - 500 - - 16307.2017ms
+2021-08-03 21:51:12.872 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login - -
+2021-08-03 21:51:12.873 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 21:51:12.873 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 21:51:12.873 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:51:12.873 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:51:12.874 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:51:12.874 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:51:12.874 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:51:12.876 +02:00 [INF] Executed page /Account/Login in 3.3033ms
+2021-08-03 21:51:12.876 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 21:51:12.877 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 4.4674ms
+2021-08-03 21:51:13.093 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/css/site.css - -
+2021-08-03 21:51:13.094 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-08-03 21:51:13.094 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/jquery/dist/jquery.min.js - -
+2021-08-03 21:51:13.189 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/lib/jquery-validation/dist/jquery.validate.js - -
+2021-08-03 21:51:13.190 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2021-08-03 21:51:13.205 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2021-08-03 21:51:13.206 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-08-03 21:51:13.209 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\js\site.js'
+2021-08-03 21:51:13.210 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 19.7182ms
+2021-08-03 21:51:13.672 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-08-03 21:51:13.951 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 856.3125ms
+2021-08-03 21:51:14.031 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\css\site.css'
+2021-08-03 21:51:14.032 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/css/site.css - - - 200 1417 text/css 938.8052ms
+2021-08-03 21:51:15.209 +02:00 [INF] Sending file. Request path: '/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\Tose\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.8\staticwebassets\V4\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2021-08-03 21:51:15.214 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 200 19366 application/javascript 2008.5494ms
+2021-08-03 21:51:15.214 +02:00 [INF] Sending file. Request path: '/Identity/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\Users\Tose\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.8\staticwebassets\V4\lib\jquery-validation\dist\jquery.validate.js'
+2021-08-03 21:51:15.216 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/lib/jquery-validation/dist/jquery.validate.js - - - 200 48676 application/javascript 2026.5697ms
+2021-08-03 21:51:15.405 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-08-03 21:51:15.409 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 2202.1543ms
+2021-08-03 21:51:15.442 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-08-03 21:51:15.444 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 2349.6581ms
+2021-08-03 21:51:15.470 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/favicon.ico - -
+2021-08-03 21:51:15.525 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\favicon.ico'
+2021-08-03 21:51:15.527 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/favicon.ico - - - 200 5430 image/x-icon 57.2732ms
+2021-08-03 21:51:46.094 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-03 21:51:46.379 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 21:51:46.383 +02:00 [INF] Hosting environment: Development
+2021-08-03 21:51:46.386 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-03 21:51:46.476 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 21:51:46.688 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:51:46.729 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 21:51:46.746 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 21:51:47.029 +02:00 [INF] Executed ViewResult - view Index executed in 289.9173ms.
+2021-08-03 21:51:47.032 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 302.5005ms
+2021-08-03 21:51:47.033 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:51:47.046 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 574.2264ms
+2021-08-03 21:51:54.707 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 21:51:54.732 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:51:54.732 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 21:51:54.733 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 21:51:54.736 +02:00 [INF] Executed ViewResult - view Index executed in 3.5646ms.
+2021-08-03 21:51:54.736 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 3.8945ms
+2021-08-03 21:51:54.736 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:51:54.737 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 30.4099ms
+2021-08-03 21:51:57.830 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks - -
+2021-08-03 21:51:57.838 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-08-03 21:51:57.844 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2021-08-03 21:51:57.846 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks - - - 302 - - 15.9778ms
+2021-08-03 21:51:57.851 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login?ReturnUrl=%2FBookmarks - -
+2021-08-03 21:51:57.863 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 21:51:57.882 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 21:51:57.912 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:51:57.928 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:51:57.929 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:51:57.933 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:51:57.933 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:51:58.017 +02:00 [INF] Executed page /Account/Login in 134.9896ms
+2021-08-03 21:51:58.018 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 21:51:58.018 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login?ReturnUrl=%2FBookmarks - - - 200 - text/html;+charset=utf-8 166.9718ms
+2021-08-03 21:51:58.974 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Categories - -
+2021-08-03 21:51:58.975 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-08-03 21:51:58.977 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2021-08-03 21:51:58.980 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Categories - - - 302 - - 6.5176ms
+2021-08-03 21:51:58.986 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login?ReturnUrl=%2FCategories - -
+2021-08-03 21:51:58.994 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 21:51:58.995 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 21:51:58.995 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:51:58.996 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:51:58.996 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:51:58.996 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:51:58.996 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:51:59.000 +02:00 [INF] Executed page /Account/Login in 5.7008ms
+2021-08-03 21:51:59.000 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 21:51:59.001 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login?ReturnUrl=%2FCategories - - - 200 - text/html;+charset=utf-8 15.3324ms
+2021-08-03 21:52:00.752 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2FCategories application/x-www-form-urlencoded 198
+2021-08-03 21:52:00.755 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:52:00.771 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:52:00.815 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-03 21:52:00.819 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-03 21:52:00.822 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Google"]).
+2021-08-03 21:52:00.826 +02:00 [INF] AuthenticationScheme: Google was challenged.
+2021-08-03 21:52:00.827 +02:00 [INF] Executed page /Account/ExternalLogin in 55.2645ms
+2021-08-03 21:52:00.827 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:52:00.828 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2FCategories application/x-www-form-urlencoded 198 - 302 - - 75.9641ms
+2021-08-03 21:52:04.787 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/signin-google?state=CfDJ8N20G8vYu7JNtrBQlQwhqpn8UVMwpagSGbE7hcrEM0xBC7Zx3G1lAs31-c3XHAjcw7ezRuN2y3RFgVlNgDMvLB667wkgO-nnvqcA3k5k6GDUFONwJsAuCY-Ftbsrl9Cw1YbjT3txsTquyS0BipyQODeY1gDBoZKR7PsACVM7lEzSsEyfyX0TyRNLRvLzpq-iDm0Fi4JHf-BbUMMi-v4JGe8SkIhrwfH94AS-FklhnleXGUgykR8c2PzV2ta6k9nKaQOkmaXTU_1dwqRxM-ngIenXJyGVtiRmu2zkVBhwkDOUhIqn8yFVUNNsvLQidTEyt1_dznieRCs1IffAkHZzpAM&code=4/0AX4XfWjsSz39X8hKmKDdmY4RscnXjtLkjuQbpHv3m10lAxHbbnMKRjDNTrHZzvihtChsbQ&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=1&hd=isolutions.mk&prompt=none - -
+2021-08-03 21:52:05.682 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2021-08-03 21:52:05.684 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/signin-google?state=CfDJ8N20G8vYu7JNtrBQlQwhqpn8UVMwpagSGbE7hcrEM0xBC7Zx3G1lAs31-c3XHAjcw7ezRuN2y3RFgVlNgDMvLB667wkgO-nnvqcA3k5k6GDUFONwJsAuCY-Ftbsrl9Cw1YbjT3txsTquyS0BipyQODeY1gDBoZKR7PsACVM7lEzSsEyfyX0TyRNLRvLzpq-iDm0Fi4JHf-BbUMMi-v4JGe8SkIhrwfH94AS-FklhnleXGUgykR8c2PzV2ta6k9nKaQOkmaXTU_1dwqRxM-ngIenXJyGVtiRmu2zkVBhwkDOUhIqn8yFVUNNsvLQidTEyt1_dznieRCs1IffAkHZzpAM&code=4/0AX4XfWjsSz39X8hKmKDdmY4RscnXjtLkjuQbpHv3m10lAxHbbnMKRjDNTrHZzvihtChsbQ&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=1&hd=isolutions.mk&prompt=none - - - 302 - - 896.7808ms
+2021-08-03 21:52:05.708 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2FCategories&handler=Callback - -
+2021-08-03 21:52:05.708 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:52:05.709 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:52:05.712 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2021-08-03 21:52:07.431 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 21:52:25.168 +02:00 [ERR] An error occurred using the connection to database 'ReadLater' on server 'DESKTOP-PC9UB68\SQLEXPRESS'.
+2021-08-03 21:52:25.705 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Data.ReadLaterDataContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2021-08-03 21:52:25.734 +02:00 [INF] Executed page /Account/ExternalLogin in 20024.7953ms
+2021-08-03 21:52:25.735 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:52:25.740 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserOnlyStore`6.FindByLoginAsync(String loginProvider, String providerKey, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.ExternalLoginSignInAsync(String loginProvider, String providerKey, Boolean isPersistent, Boolean bypassTwoFactor)
+   at Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel`1.OnGetCallbackAsync(String returnUrl, String remoteError)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2021-08-03 21:52:26.112 +02:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.HttpContextDatabaseContextDetailsExtensions.GetContextDetailsAsync(HttpContext httpContext, Type dbcontextType, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2021-08-03 21:52:26.121 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2FCategories&handler=Callback - - - 500 - - 20413.1181ms
+2021-08-03 21:54:08.512 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-03 21:54:08.789 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 21:54:08.789 +02:00 [INF] Hosting environment: Development
+2021-08-03 21:54:08.789 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-03 21:54:08.837 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 21:54:08.942 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:54:08.995 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 21:54:09.010 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 21:54:09.385 +02:00 [INF] Executed ViewResult - view Index executed in 379.7972ms.
+2021-08-03 21:54:09.389 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 392.0792ms
+2021-08-03 21:54:09.390 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:54:09.411 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 576.9596ms
+2021-08-03 21:54:40.836 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login - -
+2021-08-03 21:54:40.888 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 21:54:40.911 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 21:54:40.927 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:54:40.942 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:54:40.943 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:54:40.945 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:54:40.946 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:54:41.005 +02:00 [INF] Executed page /Account/Login in 93.6975ms
+2021-08-03 21:54:41.005 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 21:54:41.005 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 174.4046ms
+2021-08-03 21:54:42.500 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200
+2021-08-03 21:54:42.515 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:54:42.531 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:54:42.565 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-03 21:54:42.566 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-03 21:54:42.568 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Facebook"]).
+2021-08-03 21:54:42.571 +02:00 [INF] AuthenticationScheme: Facebook was challenged.
+2021-08-03 21:54:42.571 +02:00 [INF] Executed page /Account/ExternalLogin in 40.3925ms
+2021-08-03 21:54:42.571 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:54:42.582 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200 - 302 - - 82.2795ms
+2021-08-03 21:54:43.065 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/signin-facebook?code=AQDgnVA7y3rajyW0-c8yt6PGFBbApbJhwWi3LNtSUmeyBRbyriUqfweoV41bZczlOd6StrRR4vuu06_MRkYFUy_I0hjwv-r-wlPc2HjoUoQNU-ef4Tx8O1VJMCUS9ZONtkabiAPbL0q1tZKnGsZsuWhIPqRiost9yuMGi6GWOFWmqF0RvgX4moGSi_20JFXTqCrvsTZYNOgK0RoejSPLjmz3aitwtfJkAQFJ6ls0xIWceza1sDLKGbhdk_-3QiRvkMqQSsejq8Y0F9TSv1cMzcAxR4onhEOzQRCtWjL27sv4VqWnz6NgFQx1Ge_2XMv_u_L_hylrDid72VPx56GA7Aik&state=CfDJ8N20G8vYu7JNtrBQlQwhqpklxcHrPrwOGQfT5YsLEzXU5oRVkeg9gS5tTUf-TsUDucqHIlrlqUxJmthDz_8Y8BwgCtyX5W37gQcFzY-DBWwD8nsdZn-ItBVdrw50t4Lp0oaC7zwwaY60yw08F-Csro6ymCBcdSBl93zYOogzFy1LpsI45haTmWPVr9r8hO_AGnWR2es9oadF3ew3vfh33R36RL33S218J-uBRwOujoSZxlyt-c_MMrRKMNdyJSQpOuSn_F7_isMyYAOOXoDTOx4Dnh2Co8hA-nBM7xkQM6xuyLFMq3d072_N1TPC_wcrQg - -
+2021-08-03 21:54:43.931 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2021-08-03 21:54:43.933 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/signin-facebook?code=AQDgnVA7y3rajyW0-c8yt6PGFBbApbJhwWi3LNtSUmeyBRbyriUqfweoV41bZczlOd6StrRR4vuu06_MRkYFUy_I0hjwv-r-wlPc2HjoUoQNU-ef4Tx8O1VJMCUS9ZONtkabiAPbL0q1tZKnGsZsuWhIPqRiost9yuMGi6GWOFWmqF0RvgX4moGSi_20JFXTqCrvsTZYNOgK0RoejSPLjmz3aitwtfJkAQFJ6ls0xIWceza1sDLKGbhdk_-3QiRvkMqQSsejq8Y0F9TSv1cMzcAxR4onhEOzQRCtWjL27sv4VqWnz6NgFQx1Ge_2XMv_u_L_hylrDid72VPx56GA7Aik&state=CfDJ8N20G8vYu7JNtrBQlQwhqpklxcHrPrwOGQfT5YsLEzXU5oRVkeg9gS5tTUf-TsUDucqHIlrlqUxJmthDz_8Y8BwgCtyX5W37gQcFzY-DBWwD8nsdZn-ItBVdrw50t4Lp0oaC7zwwaY60yw08F-Csro6ymCBcdSBl93zYOogzFy1LpsI45haTmWPVr9r8hO_AGnWR2es9oadF3ew3vfh33R36RL33S218J-uBRwOujoSZxlyt-c_MMrRKMNdyJSQpOuSn_F7_isMyYAOOXoDTOx4Dnh2Co8hA-nBM7xkQM6xuyLFMq3d072_N1TPC_wcrQg - - - 302 - - 867.6949ms
+2021-08-03 21:54:43.937 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - -
+2021-08-03 21:54:43.938 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:54:43.938 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:54:43.939 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2021-08-03 21:54:44.550 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 21:54:45.442 +02:00 [INF] Executed DbCommand (114ms) [Parameters=[@__loginProvider_0='?' (Size = 128), @__providerKey_1='?' (Size = 128)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[LoginProvider], [a].[ProviderKey], [a].[ProviderDisplayName], [a].[UserId]
+FROM [AspNetUserLogins] AS [a]
+WHERE ([a].[LoginProvider] = @__loginProvider_0) AND ([a].[ProviderKey] = @__providerKey_1)
+2021-08-03 21:54:45.612 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__userId_0
+2021-08-03 21:54:45.664 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:54:45.736 +02:00 [INF] Executed DbCommand (41ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-08-03 21:54:45.740 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-08-03 21:54:45.741 +02:00 [INF] User logged in with Facebook provider.
+2021-08-03 21:54:45.744 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2021-08-03 21:54:45.747 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2021-08-03 21:54:45.748 +02:00 [INF] Executed page /Account/ExternalLogin in 1809.3648ms
+2021-08-03 21:54:45.748 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:54:45.751 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - - - 302 - - 1813.5512ms
+2021-08-03 21:54:45.753 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 21:54:45.755 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:54:45.756 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 21:54:45.756 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 21:54:45.759 +02:00 [INF] Executed ViewResult - view Index executed in 3.3081ms.
+2021-08-03 21:54:45.759 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 3.6273ms
+2021-08-03 21:54:45.759 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:54:45.760 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 7.0382ms
+2021-08-03 21:54:51.461 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225
+2021-08-03 21:54:51.466 +02:00 [INF] Executing endpoint '/Account/Logout'
+2021-08-03 21:54:51.469 +02:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2021-08-03 21:54:51.470 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LogoutModel.OnPost - ModelState is "Valid"
+2021-08-03 21:54:51.481 +02:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2021-08-03 21:54:51.481 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:54:51.481 +02:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2021-08-03 21:54:51.482 +02:00 [INF] User logged out.
+2021-08-03 21:54:51.482 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2021-08-03 21:54:51.482 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2021-08-03 21:54:51.482 +02:00 [INF] Executed page /Account/Logout in 12.8703ms
+2021-08-03 21:54:51.482 +02:00 [INF] Executed endpoint '/Account/Logout'
+2021-08-03 21:54:51.483 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225 - 302 - - 22.0605ms
+2021-08-03 21:54:51.486 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 21:54:51.486 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:54:51.486 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 21:54:51.486 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 21:54:51.488 +02:00 [INF] Executed ViewResult - view Index executed in 1.8108ms.
+2021-08-03 21:54:51.488 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 2.2567ms
+2021-08-03 21:54:51.489 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:54:51.489 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 3.2834ms
+2021-08-03 21:55:05.489 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 21:55:05.489 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:55:05.489 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 21:55:05.490 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 21:55:05.491 +02:00 [INF] Executed ViewResult - view Index executed in 1.7217ms.
+2021-08-03 21:55:05.491 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 2.0034ms
+2021-08-03 21:55:05.491 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:55:05.492 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 3.5641ms
+2021-08-03 21:55:07.060 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Register - -
+2021-08-03 21:55:07.067 +02:00 [INF] Executing endpoint '/Account/Register'
+2021-08-03 21:55:07.086 +02:00 [INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register
+2021-08-03 21:55:07.089 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.RegisterModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:55:07.090 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:55:07.090 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:55:07.090 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:55:07.115 +02:00 [INF] Executed page /Account/Register in 28.7244ms
+2021-08-03 21:55:07.115 +02:00 [INF] Executed endpoint '/Account/Register'
+2021-08-03 21:55:07.116 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Register - - - 200 - text/html;+charset=utf-8 55.8020ms
+2021-08-03 21:55:08.651 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin application/x-www-form-urlencoded 200
+2021-08-03 21:55:08.654 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:08.655 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:55:08.656 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-03 21:55:08.657 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-03 21:55:08.657 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Facebook"]).
+2021-08-03 21:55:08.657 +02:00 [INF] AuthenticationScheme: Facebook was challenged.
+2021-08-03 21:55:08.657 +02:00 [INF] Executed page /Account/ExternalLogin in 2.5133ms
+2021-08-03 21:55:08.657 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:08.658 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin application/x-www-form-urlencoded 200 - 302 - - 6.9026ms
+2021-08-03 21:55:09.360 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/signin-facebook?code=AQDvrdMcUSeI3c41b6_3z2Joje_OKi5fFg_oaPK1fU_E4ipTDszAORP3sMMCw1ryrflO7Zq3LK5hvCKpGGBZFPvVyngtwpz0NNRABmkEJi9xAsJ8D3Nfj1Bmjk8KOztcJnYP7uZcqJcIe0M-vbLQF7FY23hKFjwq9pOzjEZxuWR-gIz4bMDQ7agDUIOiOnYJQIkO4qCuv9P6G-ZSEcxq20tXHZHy5pOVAUKBKmTGnodZNS84qtQGwxzZVr6oHSijhEK6rzEFAltDjd8hLiuMd0Wj_kVpoIY-DewKX7ssqZoGXzndXk1byg2TK-P_sNudI_2PSasx2plmU2wFhP1KTFE_&state=CfDJ8N20G8vYu7JNtrBQlQwhqplXMcvqmkv7ItKtoO-2DmC8neT5VXZ733nDa3DKO0NNJZruHSQnr8WYmkAKMmW9B9Pa4WE8d9F8fnNrFLBvHPz-AkDEbtGL0fH3X0aGhCShSX8zugqwC4jtC5QJAd35ZeSN8K0c4T8PFw-mFCCAd9Oamvn17tHTdL1NwfZJSFi-sUwntZxU9HvWc1zgwfLoAvmHsn21AcG2XN7wa0Yzz7-LyOT3-VpkrGVhgWoxgPSj58RP7PyDE2mIRY4cPVI0iyouYtMezvPP9emKcqXWrrXv - -
+2021-08-03 21:55:09.779 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2021-08-03 21:55:09.779 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/signin-facebook?code=AQDvrdMcUSeI3c41b6_3z2Joje_OKi5fFg_oaPK1fU_E4ipTDszAORP3sMMCw1ryrflO7Zq3LK5hvCKpGGBZFPvVyngtwpz0NNRABmkEJi9xAsJ8D3Nfj1Bmjk8KOztcJnYP7uZcqJcIe0M-vbLQF7FY23hKFjwq9pOzjEZxuWR-gIz4bMDQ7agDUIOiOnYJQIkO4qCuv9P6G-ZSEcxq20tXHZHy5pOVAUKBKmTGnodZNS84qtQGwxzZVr6oHSijhEK6rzEFAltDjd8hLiuMd0Wj_kVpoIY-DewKX7ssqZoGXzndXk1byg2TK-P_sNudI_2PSasx2plmU2wFhP1KTFE_&state=CfDJ8N20G8vYu7JNtrBQlQwhqplXMcvqmkv7ItKtoO-2DmC8neT5VXZ733nDa3DKO0NNJZruHSQnr8WYmkAKMmW9B9Pa4WE8d9F8fnNrFLBvHPz-AkDEbtGL0fH3X0aGhCShSX8zugqwC4jtC5QJAd35ZeSN8K0c4T8PFw-mFCCAd9Oamvn17tHTdL1NwfZJSFi-sUwntZxU9HvWc1zgwfLoAvmHsn21AcG2XN7wa0Yzz7-LyOT3-VpkrGVhgWoxgPSj58RP7PyDE2mIRY4cPVI0iyouYtMezvPP9emKcqXWrrXv - - - 302 - - 418.8469ms
+2021-08-03 21:55:09.795 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?handler=Callback - -
+2021-08-03 21:55:09.795 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:09.795 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:55:09.795 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2021-08-03 21:55:09.824 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 21:55:09.832 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__loginProvider_0='?' (Size = 128), @__providerKey_1='?' (Size = 128)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[LoginProvider], [a].[ProviderKey], [a].[ProviderDisplayName], [a].[UserId]
+FROM [AspNetUserLogins] AS [a]
+WHERE ([a].[LoginProvider] = @__loginProvider_0) AND ([a].[ProviderKey] = @__providerKey_1)
+2021-08-03 21:55:09.835 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__userId_0
+2021-08-03 21:55:09.836 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:55:09.838 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-08-03 21:55:09.838 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-08-03 21:55:09.838 +02:00 [INF] User logged in with Facebook provider.
+2021-08-03 21:55:09.838 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2021-08-03 21:55:09.838 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2021-08-03 21:55:09.838 +02:00 [INF] Executed page /Account/ExternalLogin in 43.3893ms
+2021-08-03 21:55:09.838 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:09.839 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?handler=Callback - - - 302 - - 44.2952ms
+2021-08-03 21:55:09.841 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 21:55:09.842 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:55:09.842 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 21:55:09.842 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 21:55:09.844 +02:00 [INF] Executed ViewResult - view Index executed in 1.3075ms.
+2021-08-03 21:55:09.844 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 1.5489ms
+2021-08-03 21:55:09.844 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:55:09.845 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 3.5061ms
+2021-08-03 21:55:11.684 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225
+2021-08-03 21:55:11.685 +02:00 [INF] Executing endpoint '/Account/Logout'
+2021-08-03 21:55:11.685 +02:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2021-08-03 21:55:11.686 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LogoutModel.OnPost - ModelState is "Valid"
+2021-08-03 21:55:11.686 +02:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2021-08-03 21:55:11.686 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:55:11.686 +02:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2021-08-03 21:55:11.686 +02:00 [INF] User logged out.
+2021-08-03 21:55:11.686 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2021-08-03 21:55:11.686 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2021-08-03 21:55:11.686 +02:00 [INF] Executed page /Account/Logout in 1.3004ms
+2021-08-03 21:55:11.687 +02:00 [INF] Executed endpoint '/Account/Logout'
+2021-08-03 21:55:11.688 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225 - 302 - - 3.8251ms
+2021-08-03 21:55:11.692 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 21:55:11.692 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:55:11.692 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 21:55:11.692 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 21:55:11.694 +02:00 [INF] Executed ViewResult - view Index executed in 1.3715ms.
+2021-08-03 21:55:11.694 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 1.5827ms
+2021-08-03 21:55:11.694 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:55:11.694 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 2.8001ms
+2021-08-03 21:55:13.086 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Register - -
+2021-08-03 21:55:13.087 +02:00 [INF] Executing endpoint '/Account/Register'
+2021-08-03 21:55:13.087 +02:00 [INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register
+2021-08-03 21:55:13.088 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.RegisterModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:55:13.088 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:55:13.088 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:55:13.088 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:55:13.092 +02:00 [INF] Executed page /Account/Register in 4.9656ms
+2021-08-03 21:55:13.092 +02:00 [INF] Executed endpoint '/Account/Register'
+2021-08-03 21:55:13.093 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Register - - - 200 - text/html;+charset=utf-8 6.4748ms
+2021-08-03 21:55:14.030 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin application/x-www-form-urlencoded 198
+2021-08-03 21:55:14.030 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:14.030 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:55:14.030 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-03 21:55:14.031 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-03 21:55:14.031 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Google"]).
+2021-08-03 21:55:14.033 +02:00 [INF] AuthenticationScheme: Google was challenged.
+2021-08-03 21:55:14.033 +02:00 [INF] Executed page /Account/ExternalLogin in 2.6696ms
+2021-08-03 21:55:14.033 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:14.033 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin application/x-www-form-urlencoded 198 - 302 - - 3.6775ms
+2021-08-03 21:55:17.376 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/signin-google?state=CfDJ8N20G8vYu7JNtrBQlQwhqplkDjFS9dmFF26Cs4pqvqkt3-nPjdXNKrWX9WlF3EGd9rwgA3QLL8Ll82UR-GTrT2tBkwaUUhdV7PY-d0tgpM6LWvtWEN2V99Mzd-G1FHW-50V5sm9ROoVYiexteWmfxplDJNGF5QnF3UDh_3wQRPS39IiOntkZpsts3z6DJZafy3BFMhzLZ76oMY9pZSqz4eAbiG4OY1FP9Ygt_kYIAvQ_GaymExnvlb1Z-l196Q4yq0RuX9b0vhKm_0KaFL_LORUdb5-Y9q1BkasBSECitaaW&code=4/0AX4XfWjsd97ahFZEAtY6rNmhinxENwcuGW5aPMGn4K9bVhLQYQrk-hf0-kbTU8t_Dy1FAA&scope=email%20profile%20https://www.googleapis.com/auth/userinfo.profile%20openid%20https://www.googleapis.com/auth/userinfo.email&authuser=1&hd=isolutions.mk&prompt=none - -
+2021-08-03 21:55:17.916 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2021-08-03 21:55:17.917 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/signin-google?state=CfDJ8N20G8vYu7JNtrBQlQwhqplkDjFS9dmFF26Cs4pqvqkt3-nPjdXNKrWX9WlF3EGd9rwgA3QLL8Ll82UR-GTrT2tBkwaUUhdV7PY-d0tgpM6LWvtWEN2V99Mzd-G1FHW-50V5sm9ROoVYiexteWmfxplDJNGF5QnF3UDh_3wQRPS39IiOntkZpsts3z6DJZafy3BFMhzLZ76oMY9pZSqz4eAbiG4OY1FP9Ygt_kYIAvQ_GaymExnvlb1Z-l196Q4yq0RuX9b0vhKm_0KaFL_LORUdb5-Y9q1BkasBSECitaaW&code=4/0AX4XfWjsd97ahFZEAtY6rNmhinxENwcuGW5aPMGn4K9bVhLQYQrk-hf0-kbTU8t_Dy1FAA&scope=email%20profile%20https://www.googleapis.com/auth/userinfo.profile%20openid%20https://www.googleapis.com/auth/userinfo.email&authuser=1&hd=isolutions.mk&prompt=none - - - 302 - - 540.4922ms
+2021-08-03 21:55:17.923 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?handler=Callback - -
+2021-08-03 21:55:17.931 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:17.932 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:55:17.932 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2021-08-03 21:55:17.952 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 21:55:17.990 +02:00 [INF] Executed DbCommand (17ms) [Parameters=[@__loginProvider_0='?' (Size = 128), @__providerKey_1='?' (Size = 128)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[LoginProvider], [a].[ProviderKey], [a].[ProviderDisplayName], [a].[UserId]
+FROM [AspNetUserLogins] AS [a]
+WHERE ([a].[LoginProvider] = @__loginProvider_0) AND ([a].[ProviderKey] = @__providerKey_1)
+2021-08-03 21:55:17.991 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:55:18.008 +02:00 [INF] Executed page /Account/ExternalLogin in 76.4065ms
+2021-08-03 21:55:18.008 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:18.009 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?handler=Callback - - - 200 - text/html;+charset=utf-8 85.9085ms
+2021-08-03 21:55:31.747 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login - -
+2021-08-03 21:55:31.747 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 21:55:31.747 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 21:55:31.748 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:55:31.748 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:55:31.748 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:55:31.748 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:55:31.748 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:55:31.751 +02:00 [INF] Executed page /Account/Login in 3.398ms
+2021-08-03 21:55:31.751 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 21:55:31.751 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 4.2913ms
+2021-08-03 21:55:36.142 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 198
+2021-08-03 21:55:36.142 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:36.143 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:55:36.143 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-03 21:55:36.143 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-03 21:55:36.143 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Google"]).
+2021-08-03 21:55:36.143 +02:00 [INF] AuthenticationScheme: Google was challenged.
+2021-08-03 21:55:36.143 +02:00 [INF] Executed page /Account/ExternalLogin in 0.833ms
+2021-08-03 21:55:36.143 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:36.144 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 198 - 302 - - 1.8447ms
+2021-08-03 21:55:38.340 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/signin-google?state=CfDJ8N20G8vYu7JNtrBQlQwhqplLNFacavwuopAHpWn8etjcE4SpyMa1onVDcI4dsG7cYlmBiZXS_TS-yynV70QkaGNKvhPPFBOxdtOhY5gwh_28vQoNrpt03CyXaF8bKR5LHag8jdHNABITisFpfzMgH5OYbxetmcapENmOdMGcb_X77omDVJhKcj85ChuThzibVPwPDMh_7gM0MgULHM2pr_qpY41om8GGRHpMT3VLmnv2xgYEs3a6EBYad5yaMwzRSP6S1EEBsUJKOC1n73fPX0h0QmalnEWiTS_phWeSBigQ2x3QFdD4ujXj7d3XzWeJ9w&code=4/0AX4XfWjS30NYTfxDC6A7Bu9Y8M7iugCMU-bA1uBsH8lRlh0oBTw3TbMHsxSRg99HkBTOjQ&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&authuser=1&hd=isolutions.mk&prompt=none - -
+2021-08-03 21:55:38.559 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2021-08-03 21:55:38.560 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/signin-google?state=CfDJ8N20G8vYu7JNtrBQlQwhqplLNFacavwuopAHpWn8etjcE4SpyMa1onVDcI4dsG7cYlmBiZXS_TS-yynV70QkaGNKvhPPFBOxdtOhY5gwh_28vQoNrpt03CyXaF8bKR5LHag8jdHNABITisFpfzMgH5OYbxetmcapENmOdMGcb_X77omDVJhKcj85ChuThzibVPwPDMh_7gM0MgULHM2pr_qpY41om8GGRHpMT3VLmnv2xgYEs3a6EBYad5yaMwzRSP6S1EEBsUJKOC1n73fPX0h0QmalnEWiTS_phWeSBigQ2x3QFdD4ujXj7d3XzWeJ9w&code=4/0AX4XfWjS30NYTfxDC6A7Bu9Y8M7iugCMU-bA1uBsH8lRlh0oBTw3TbMHsxSRg99HkBTOjQ&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.email%20https://www.googleapis.com/auth/userinfo.profile&authuser=1&hd=isolutions.mk&prompt=none - - - 302 - - 220.0071ms
+2021-08-03 21:55:38.564 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - -
+2021-08-03 21:55:38.564 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:38.564 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:55:38.564 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2021-08-03 21:55:38.565 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 21:55:38.570 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__loginProvider_0='?' (Size = 128), @__providerKey_1='?' (Size = 128)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[LoginProvider], [a].[ProviderKey], [a].[ProviderDisplayName], [a].[UserId]
+FROM [AspNetUserLogins] AS [a]
+WHERE ([a].[LoginProvider] = @__loginProvider_0) AND ([a].[ProviderKey] = @__providerKey_1)
+2021-08-03 21:55:38.571 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:55:38.572 +02:00 [INF] Executed page /Account/ExternalLogin in 7.7043ms
+2021-08-03 21:55:38.572 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:38.572 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - - - 200 - text/html;+charset=utf-8 8.3892ms
+2021-08-03 21:55:40.596 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Confirmation application/x-www-form-urlencoded 216
+2021-08-03 21:55:40.596 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:40.596 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:55:40.600 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPostConfirmationAsync - ModelState is "Valid"
+2021-08-03 21:55:40.713 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 21:55:40.760 +02:00 [INF] Executed DbCommand (36ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2021-08-03 21:55:40.763 +02:00 [WRN] User validation failed: DuplicateUserName.
+2021-08-03 21:55:40.765 +02:00 [INF] Executed handler method OnPostConfirmationAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:55:40.767 +02:00 [INF] Executed page /Account/ExternalLogin in 170.8256ms
+2021-08-03 21:55:40.767 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:55:40.768 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Confirmation application/x-www-form-urlencoded 216 - 200 - text/html;+charset=utf-8 171.7266ms
+2021-08-03 21:55:47.327 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 21:55:47.328 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:55:47.328 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 21:55:47.328 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 21:55:47.329 +02:00 [INF] Executed ViewResult - view Index executed in 0.775ms.
+2021-08-03 21:55:47.329 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 0.9023ms
+2021-08-03 21:55:47.329 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:55:47.329 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 1.6514ms
+2021-08-03 21:56:11.179 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login - -
+2021-08-03 21:56:11.184 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 21:56:11.185 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 21:56:11.187 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:56:11.187 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:56:11.187 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:56:11.187 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:56:11.187 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:56:11.216 +02:00 [INF] Executed page /Account/Login in 31.2933ms
+2021-08-03 21:56:11.217 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 21:56:11.223 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 43.6612ms
+2021-08-03 21:56:12.355 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200
+2021-08-03 21:56:12.357 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:56:12.357 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:56:12.406 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-03 21:56:12.406 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-03 21:56:12.406 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Facebook"]).
+2021-08-03 21:56:12.406 +02:00 [INF] AuthenticationScheme: Facebook was challenged.
+2021-08-03 21:56:12.406 +02:00 [INF] Executed page /Account/ExternalLogin in 49.3548ms
+2021-08-03 21:56:12.407 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:56:12.416 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200 - 302 - - 61.0232ms
+2021-08-03 21:56:12.852 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/signin-facebook?code=AQDZGQ99-jpWcfYNzToJhu0ixxSNgIrGNEfZaC6rNsQETJ9fQewoPXJTCYzNAreFZuj0FgvXFc_ScsDJItZmwSGJX20nW064yFs8DSk3uVSdS7g8owJ0MlcPbFz_ah3smNOA_M2b8GmwVTmZ-XMTZqZc2k3MfFwTUdJ_7PRB2LY2KVgRqnPTkLKb0q4Hu2mjwQgQPtRum3kruyVqbBxS9qMTW0mb6p8NypfoQPL8BPj6I9ZlK6lj6ONjooub35shVmK4WdKoIpHJGIQT-AAZFJDv50grV2Zw__Ea2b4uB_sWzBcOzeGJQK4aIVSNVauNoO4Fy7Mc56fqksOe3qZ6r3nH&state=CfDJ8N20G8vYu7JNtrBQlQwhqpnbamByYkNpoaJ_ue7eYpDyz-HFbtMkNSmfYh9gJqF6e6u7JYDYHBFnQPLkuOt_6MWjsAk3E082tZv12evYvq2ckPALFi1V3z1MMuM-2I-swv_4c6xLaGz4erdvN_7VMmYX2G0SHDcw7UCTRArp6lXsCPGEqPfr5g5yzeznAY-__hE18ZRMuVoYz_NTe8qJRU5bwyM4am3To5InpJch1tRbamT72CTa1c2_uvjFrbSH49Lhrqu9CBFsdxZxWO3-e3u1F9-e2zc2lehSZSMW566x-0gUuM5tC6nqBKDTGMnXEg - -
+2021-08-03 21:56:13.253 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2021-08-03 21:56:13.253 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/signin-facebook?code=AQDZGQ99-jpWcfYNzToJhu0ixxSNgIrGNEfZaC6rNsQETJ9fQewoPXJTCYzNAreFZuj0FgvXFc_ScsDJItZmwSGJX20nW064yFs8DSk3uVSdS7g8owJ0MlcPbFz_ah3smNOA_M2b8GmwVTmZ-XMTZqZc2k3MfFwTUdJ_7PRB2LY2KVgRqnPTkLKb0q4Hu2mjwQgQPtRum3kruyVqbBxS9qMTW0mb6p8NypfoQPL8BPj6I9ZlK6lj6ONjooub35shVmK4WdKoIpHJGIQT-AAZFJDv50grV2Zw__Ea2b4uB_sWzBcOzeGJQK4aIVSNVauNoO4Fy7Mc56fqksOe3qZ6r3nH&state=CfDJ8N20G8vYu7JNtrBQlQwhqpnbamByYkNpoaJ_ue7eYpDyz-HFbtMkNSmfYh9gJqF6e6u7JYDYHBFnQPLkuOt_6MWjsAk3E082tZv12evYvq2ckPALFi1V3z1MMuM-2I-swv_4c6xLaGz4erdvN_7VMmYX2G0SHDcw7UCTRArp6lXsCPGEqPfr5g5yzeznAY-__hE18ZRMuVoYz_NTe8qJRU5bwyM4am3To5InpJch1tRbamT72CTa1c2_uvjFrbSH49Lhrqu9CBFsdxZxWO3-e3u1F9-e2zc2lehSZSMW566x-0gUuM5tC6nqBKDTGMnXEg - - - 302 - - 401.5468ms
+2021-08-03 21:56:13.258 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - -
+2021-08-03 21:56:13.258 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:56:13.258 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:56:13.259 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2021-08-03 21:56:13.260 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 21:56:13.264 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__loginProvider_0='?' (Size = 128), @__providerKey_1='?' (Size = 128)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[LoginProvider], [a].[ProviderKey], [a].[ProviderDisplayName], [a].[UserId]
+FROM [AspNetUserLogins] AS [a]
+WHERE ([a].[LoginProvider] = @__loginProvider_0) AND ([a].[ProviderKey] = @__providerKey_1)
+2021-08-03 21:56:13.269 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__userId_0
+2021-08-03 21:56:13.273 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:56:13.277 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-08-03 21:56:13.278 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-08-03 21:56:13.278 +02:00 [INF] User logged in with Facebook provider.
+2021-08-03 21:56:13.278 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2021-08-03 21:56:13.279 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2021-08-03 21:56:13.279 +02:00 [INF] Executed page /Account/ExternalLogin in 20.4423ms
+2021-08-03 21:56:13.279 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:56:13.280 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - - - 302 - - 22.0269ms
+2021-08-03 21:56:13.285 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 21:56:13.286 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:56:13.286 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 21:56:13.286 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 21:56:13.287 +02:00 [INF] Executed ViewResult - view Index executed in 0.973ms.
+2021-08-03 21:56:13.287 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 1.1361ms
+2021-08-03 21:56:13.287 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:56:13.287 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 2.2610ms
+2021-08-03 21:57:07.496 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 21:57:07.500 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:57:07.500 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 21:57:07.501 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 21:57:07.502 +02:00 [INF] Executed ViewResult - view Index executed in 1.5323ms.
+2021-08-03 21:57:07.503 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 2.0269ms
+2021-08-03 21:57:07.506 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 21:57:07.513 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 16.7005ms
+2021-08-03 21:57:07.554 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/jquery/dist/jquery.min.js - -
+2021-08-03 21:57:07.554 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2021-08-03 21:57:07.554 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-08-03 21:57:07.554 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/css/site.css - -
+2021-08-03 21:57:07.569 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-08-03 21:57:07.583 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\js\site.js'
+2021-08-03 21:57:07.584 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 30.2622ms
+2021-08-03 21:57:07.599 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\css\site.css'
+2021-08-03 21:57:07.599 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/css/site.css - - - 200 1417 text/css 44.6558ms
+2021-08-03 21:57:07.620 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-08-03 21:57:07.620 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-08-03 21:57:07.622 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 52.5613ms
+2021-08-03 21:57:07.623 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 68.7881ms
+2021-08-03 21:57:07.626 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-08-03 21:57:07.628 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 73.9652ms
+2021-08-03 21:57:07.702 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/favicon.ico - -
+2021-08-03 21:57:07.712 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\favicon.ico'
+2021-08-03 21:57:07.712 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/favicon.ico - - - 200 5430 image/x-icon 10.6073ms
+2021-08-03 21:57:09.166 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login - -
+2021-08-03 21:57:09.166 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 21:57:09.167 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 21:57:09.167 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:57:09.168 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:57:09.168 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:57:09.168 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:57:09.168 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:57:09.172 +02:00 [INF] Executed page /Account/Login in 4.7286ms
+2021-08-03 21:57:09.172 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 21:57:09.173 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 6.5583ms
+2021-08-03 21:57:09.188 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/lib/jquery-validation/dist/jquery.validate.js - -
+2021-08-03 21:57:09.188 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2021-08-03 21:57:09.195 +02:00 [INF] Sending file. Request path: '/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\Tose\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.8\staticwebassets\V4\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2021-08-03 21:57:09.196 +02:00 [INF] Sending file. Request path: '/Identity/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\Users\Tose\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.8\staticwebassets\V4\lib\jquery-validation\dist\jquery.validate.js'
+2021-08-03 21:57:09.196 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 200 19366 application/javascript 7.3388ms
+2021-08-03 21:57:09.197 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/lib/jquery-validation/dist/jquery.validate.js - - - 200 48676 application/javascript 8.3649ms
+2021-08-03 21:57:10.452 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 198
+2021-08-03 21:57:10.453 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:57:10.453 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:57:10.456 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-03 21:57:10.457 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-03 21:57:10.457 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Google"]).
+2021-08-03 21:57:10.458 +02:00 [INF] AuthenticationScheme: Google was challenged.
+2021-08-03 21:57:10.458 +02:00 [INF] Executed page /Account/ExternalLogin in 4.6023ms
+2021-08-03 21:57:10.458 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:57:10.459 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 198 - 302 - - 6.4565ms
+2021-08-03 21:57:13.532 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login - -
+2021-08-03 21:57:13.532 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 21:57:13.532 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 21:57:13.533 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:57:13.533 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:57:13.533 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:57:13.533 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:57:13.533 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:57:13.535 +02:00 [INF] Executed page /Account/Login in 2.4671ms
+2021-08-03 21:57:13.535 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 21:57:13.536 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 3.5424ms
+2021-08-03 21:57:14.721 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200
+2021-08-03 21:57:14.721 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 21:57:14.722 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 21:57:14.722 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-03 21:57:14.723 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-03 21:57:14.723 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Facebook"]).
+2021-08-03 21:57:14.723 +02:00 [INF] AuthenticationScheme: Facebook was challenged.
+2021-08-03 21:57:14.723 +02:00 [INF] Executed page /Account/ExternalLogin in 1.3673ms
+2021-08-03 21:57:14.723 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 21:57:14.724 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200 - 302 - - 3.2384ms
+2021-08-03 21:57:17.766 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login - -
+2021-08-03 21:57:17.766 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 21:57:17.766 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 21:57:17.768 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 21:57:17.769 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 21:57:17.769 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 21:57:17.769 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 21:57:17.769 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 21:57:17.774 +02:00 [INF] Executed page /Account/Login in 7.7605ms
+2021-08-03 21:57:17.774 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 21:57:17.775 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 8.8792ms
+2021-08-03 22:08:24.970 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-03 22:08:25.314 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 22:08:25.315 +02:00 [INF] Hosting environment: Development
+2021-08-03 22:08:25.315 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-03 22:08:25.377 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 22:08:26.600 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:08:26.635 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 22:08:26.648 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 22:08:26.840 +02:00 [INF] Executed ViewResult - view Index executed in 196.7926ms.
+2021-08-03 22:08:26.843 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 207.3011ms
+2021-08-03 22:08:26.844 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:08:26.862 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 1486.8831ms
+2021-08-03 22:08:29.573 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225
+2021-08-03 22:08:29.663 +02:00 [INF] Executing endpoint '/Account/Logout'
+2021-08-03 22:08:29.683 +02:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2021-08-03 22:08:29.726 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LogoutModel.OnPost - ModelState is "Valid"
+2021-08-03 22:08:29.742 +02:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2021-08-03 22:08:29.743 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 22:08:29.744 +02:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2021-08-03 22:08:29.744 +02:00 [INF] User logged out.
+2021-08-03 22:08:29.744 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2021-08-03 22:08:29.745 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2021-08-03 22:08:29.745 +02:00 [INF] Executed page /Account/Logout in 62.2856ms
+2021-08-03 22:08:29.745 +02:00 [INF] Executed endpoint '/Account/Logout'
+2021-08-03 22:08:29.747 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225 - 302 - - 174.1415ms
+2021-08-03 22:08:29.751 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 22:08:29.752 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:08:29.752 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 22:08:29.752 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 22:08:29.759 +02:00 [INF] Executed ViewResult - view Index executed in 7.1287ms.
+2021-08-03 22:08:29.760 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 7.3994ms
+2021-08-03 22:08:29.760 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:08:29.760 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 9.4395ms
+2021-08-03 22:08:35.242 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login - -
+2021-08-03 22:08:35.295 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 22:08:35.342 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 22:08:35.364 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 22:08:35.365 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 22:08:35.368 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 22:08:35.375 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 22:08:35.375 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 22:08:35.510 +02:00 [INF] Executed page /Account/Login in 168.5967ms
+2021-08-03 22:08:35.510 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 22:08:35.511 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 269.1521ms
+2021-08-03 22:08:36.686 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200
+2021-08-03 22:08:36.690 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 22:08:36.701 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 22:08:36.722 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-03 22:08:36.723 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-03 22:08:36.728 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Facebook"]).
+2021-08-03 22:08:36.734 +02:00 [INF] AuthenticationScheme: Facebook was challenged.
+2021-08-03 22:08:36.735 +02:00 [INF] Executed page /Account/ExternalLogin in 33.4791ms
+2021-08-03 22:08:36.735 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 22:08:36.737 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 200 - 302 - - 51.1060ms
+2021-08-03 22:08:37.172 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/signin-facebook?code=AQAZhTUbfhv4yExCi40XlksV00GbVeZnqYaEagXfV2Zklpr7HFFL57caPbxNoCjtIsqCngdw1nFI4XYmJx5JgNl_JX5dRbF2vkSgwfCJQcdr9XPd7WpdZLjEXo5dLelCN9upffDW1J59uFDV-K-GsXY01k9qp-0u7EgsWVa6q7zuuEJ9-wcimzgyeHbXOgo9zAGL14susB0zFDNERzjR_fSrBK0SDl34mH5-aeauJWNjvAIdIMuhzpSEx8i6O9m1sdwi8vTwNPNqmwEeOwOsGvzo1eme4D5zk4kojIZR7QdRyoABfzQhAF9b-8lqmb8_j2g9a7yflA5rVquHAGqXT-e4&state=CfDJ8N20G8vYu7JNtrBQlQwhqpm6PM7c7peC5MMd6gcxCpDoiT6KUo755lTLdCGxNP3GlyHgNw3yX0BjQahanMVgtag0ptmozFjq174_Ky8Mg7WfiBQGRCtBFAQWuUse7QsafBD-hp7P8jy797jiH9vnO726mQWy6_RYj64bTZ_VFt46V9Bj-qH7sltR-z2qkhNDqQkGzo6_DqZF8GqbUcvl6uiTg2xeKWbYajrFITDPd-5dDgtV-QnF-t2LZOOJ1Oh9z8mRasz6ceX5sWzNlaW6vpc0QDKXKlo4CZHbLiADQKgV1TfkCCf9ycb19ZaUH9vzcQ - -
+2021-08-03 22:08:38.031 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2021-08-03 22:08:38.033 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/signin-facebook?code=AQAZhTUbfhv4yExCi40XlksV00GbVeZnqYaEagXfV2Zklpr7HFFL57caPbxNoCjtIsqCngdw1nFI4XYmJx5JgNl_JX5dRbF2vkSgwfCJQcdr9XPd7WpdZLjEXo5dLelCN9upffDW1J59uFDV-K-GsXY01k9qp-0u7EgsWVa6q7zuuEJ9-wcimzgyeHbXOgo9zAGL14susB0zFDNERzjR_fSrBK0SDl34mH5-aeauJWNjvAIdIMuhzpSEx8i6O9m1sdwi8vTwNPNqmwEeOwOsGvzo1eme4D5zk4kojIZR7QdRyoABfzQhAF9b-8lqmb8_j2g9a7yflA5rVquHAGqXT-e4&state=CfDJ8N20G8vYu7JNtrBQlQwhqpm6PM7c7peC5MMd6gcxCpDoiT6KUo755lTLdCGxNP3GlyHgNw3yX0BjQahanMVgtag0ptmozFjq174_Ky8Mg7WfiBQGRCtBFAQWuUse7QsafBD-hp7P8jy797jiH9vnO726mQWy6_RYj64bTZ_VFt46V9Bj-qH7sltR-z2qkhNDqQkGzo6_DqZF8GqbUcvl6uiTg2xeKWbYajrFITDPd-5dDgtV-QnF-t2LZOOJ1Oh9z8mRasz6ceX5sWzNlaW6vpc0QDKXKlo4CZHbLiADQKgV1TfkCCf9ycb19ZaUH9vzcQ - - - 302 - - 861.5300ms
+2021-08-03 22:08:38.036 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - -
+2021-08-03 22:08:38.037 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 22:08:38.037 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 22:08:38.038 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2021-08-03 22:08:39.467 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 22:08:40.720 +02:00 [INF] Executed DbCommand (60ms) [Parameters=[@__loginProvider_0='?' (Size = 128), @__providerKey_1='?' (Size = 128)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[LoginProvider], [a].[ProviderKey], [a].[ProviderDisplayName], [a].[UserId]
+FROM [AspNetUserLogins] AS [a]
+WHERE ([a].[LoginProvider] = @__loginProvider_0) AND ([a].[ProviderKey] = @__providerKey_1)
+2021-08-03 22:08:40.832 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__userId_0
+2021-08-03 22:08:40.885 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 22:08:40.914 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-08-03 22:08:40.921 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-08-03 22:08:40.923 +02:00 [INF] User logged in with Facebook provider.
+2021-08-03 22:08:40.924 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2021-08-03 22:08:40.925 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2021-08-03 22:08:40.926 +02:00 [INF] Executed page /Account/ExternalLogin in 2889.1943ms
+2021-08-03 22:08:40.927 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 22:08:40.930 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - - - 302 - - 2893.7839ms
+2021-08-03 22:08:40.932 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 22:08:40.933 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:08:40.933 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 22:08:40.934 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 22:08:40.935 +02:00 [INF] Executed ViewResult - view Index executed in 1.1151ms.
+2021-08-03 22:08:40.935 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 1.2812ms
+2021-08-03 22:08:40.935 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:08:40.935 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 3.1037ms
+2021-08-03 22:08:42.723 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225
+2021-08-03 22:08:42.724 +02:00 [INF] Executing endpoint '/Account/Logout'
+2021-08-03 22:08:42.724 +02:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2021-08-03 22:08:42.725 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.LogoutModel.OnPost - ModelState is "Valid"
+2021-08-03 22:08:42.725 +02:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2021-08-03 22:08:42.725 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 22:08:42.725 +02:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2021-08-03 22:08:42.725 +02:00 [INF] User logged out.
+2021-08-03 22:08:42.725 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2021-08-03 22:08:42.726 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2021-08-03 22:08:42.726 +02:00 [INF] Executed page /Account/Logout in 1.2746ms
+2021-08-03 22:08:42.726 +02:00 [INF] Executed endpoint '/Account/Logout'
+2021-08-03 22:08:42.727 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225 - 302 - - 3.8629ms
+2021-08-03 22:08:42.731 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 22:08:42.731 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:08:42.731 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 22:08:42.731 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 22:08:42.732 +02:00 [INF] Executed ViewResult - view Index executed in 1.3237ms.
+2021-08-03 22:08:42.733 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 1.5795ms
+2021-08-03 22:08:42.733 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:08:42.733 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 2.5541ms
+2021-08-03 22:08:54.271 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 22:08:54.272 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:08:54.272 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 22:08:54.272 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 22:08:54.276 +02:00 [INF] Executed ViewResult - view Index executed in 3.8139ms.
+2021-08-03 22:08:54.276 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 4.0673ms
+2021-08-03 22:08:54.276 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:08:54.280 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 8.6483ms
+2021-08-03 22:09:02.937 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login - -
+2021-08-03 22:09:02.938 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 22:09:02.938 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 22:09:02.939 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 22:09:02.939 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 22:09:02.939 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 22:09:02.939 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 22:09:02.939 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 22:09:02.944 +02:00 [INF] Executed page /Account/Login in 6.3597ms
+2021-08-03 22:09:02.945 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 22:09:02.945 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login - - - 200 - text/html;+charset=utf-8 7.6676ms
+2021-08-03 22:09:04.263 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 198
+2021-08-03 22:09:04.264 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 22:09:04.265 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 22:09:04.267 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2021-08-03 22:09:04.268 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2021-08-03 22:09:04.269 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Google"]).
+2021-08-03 22:09:04.272 +02:00 [INF] AuthenticationScheme: Google was challenged.
+2021-08-03 22:09:04.272 +02:00 [INF] Executed page /Account/ExternalLogin in 6.502ms
+2021-08-03 22:09:04.272 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 22:09:04.273 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F application/x-www-form-urlencoded 198 - 302 - - 9.9681ms
+2021-08-03 22:09:14.505 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/signin-google?state=CfDJ8N20G8vYu7JNtrBQlQwhqpkzFVv85JedAZlq8ah81yKwvgG5q87EttOk22T4EqS46Bn1HOHpaCFm1TgPPmyTQ8oshPTOnpxVoJupR4k3B73QDB8m87gEARVVReazJ3g3CbsnQrj16AP4leq84qY7qCafDYmcMC_Y49gH_gASeanaxNpkPKhQmMJmiO3bXMVRLXGX6cWjaQZz-gMBXa4jGNPrl2xVfUb6J-LXvbwXf0HrVEEKp5AUR4GeUiHitCMBjNsw7z9Xr99NjOj8g6zgETQ50PVkwdZO6D_SvH2ButC-vyGpU2a_4wWNCPrq7R6oWA&code=4/0AX4XfWghtz277GtaJDMH-wMU019_v2epUYtzGs35_J4hOimZFF7dpLRcbuIZYFIK34dAAQ&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=1&hd=isolutions.mk&prompt=none - -
+2021-08-03 22:09:15.445 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2021-08-03 22:09:15.449 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/signin-google?state=CfDJ8N20G8vYu7JNtrBQlQwhqpkzFVv85JedAZlq8ah81yKwvgG5q87EttOk22T4EqS46Bn1HOHpaCFm1TgPPmyTQ8oshPTOnpxVoJupR4k3B73QDB8m87gEARVVReazJ3g3CbsnQrj16AP4leq84qY7qCafDYmcMC_Y49gH_gASeanaxNpkPKhQmMJmiO3bXMVRLXGX6cWjaQZz-gMBXa4jGNPrl2xVfUb6J-LXvbwXf0HrVEEKp5AUR4GeUiHitCMBjNsw7z9Xr99NjOj8g6zgETQ50PVkwdZO6D_SvH2ButC-vyGpU2a_4wWNCPrq7R6oWA&code=4/0AX4XfWghtz277GtaJDMH-wMU019_v2epUYtzGs35_J4hOimZFF7dpLRcbuIZYFIK34dAAQ&scope=email%20profile%20openid%20https://www.googleapis.com/auth/userinfo.profile%20https://www.googleapis.com/auth/userinfo.email&authuser=1&hd=isolutions.mk&prompt=none - - - 302 - - 944.1161ms
+2021-08-03 22:09:15.454 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - -
+2021-08-03 22:09:15.454 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2021-08-03 22:09:15.455 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2021-08-03 22:09:15.455 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2021-08-03 22:09:15.521 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 22:09:15.536 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@__loginProvider_0='?' (Size = 128), @__providerKey_1='?' (Size = 128)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[LoginProvider], [a].[ProviderKey], [a].[ProviderDisplayName], [a].[UserId]
+FROM [AspNetUserLogins] AS [a]
+WHERE ([a].[LoginProvider] = @__loginProvider_0) AND ([a].[ProviderKey] = @__providerKey_1)
+2021-08-03 22:09:15.538 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 22:09:15.576 +02:00 [INF] Executed page /Account/ExternalLogin in 121.0755ms
+2021-08-03 22:09:15.576 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2021-08-03 22:09:15.576 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - - - 200 - text/html;+charset=utf-8 122.3155ms
+2021-08-03 22:15:52.376 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-03 22:15:52.672 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 22:15:52.672 +02:00 [INF] Hosting environment: Development
+2021-08-03 22:15:52.672 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-03 22:15:52.714 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 22:15:52.799 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:15:52.842 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 22:15:52.940 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 22:15:53.289 +02:00 [INF] Executed ViewResult - view Index executed in 353.3359ms.
+2021-08-03 22:15:53.290 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 447.5022ms
+2021-08-03 22:15:53.291 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:15:53.319 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 605.3770ms
+2021-08-03 22:15:53.416 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/test - -
+2021-08-03 22:15:53.421 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/test - - - 404 - - 5.4523ms
+2021-08-03 22:15:57.878 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2021-08-03 22:15:57.891 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/css/bootstrap.min.css.map - -
+2021-08-03 22:15:59.212 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2021-08-03 22:15:59.226 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 625953 text/plain 1335.0840ms
+2021-08-03 22:15:59.388 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2021-08-03 22:15:59.393 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 311949 text/plain 1515.5240ms
+2021-08-03 22:28:35.264 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Categories - -
+2021-08-03 22:28:35.284 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-08-03 22:28:35.289 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2021-08-03 22:28:35.326 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login?ReturnUrl=%2FCategories - -
+2021-08-03 22:28:35.361 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Categories - - - 302 - - 96.7591ms
+2021-08-03 22:28:35.366 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 22:28:35.381 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 22:28:35.401 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 22:28:35.415 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 22:28:35.416 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 22:28:35.419 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 22:28:35.419 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 22:28:35.492 +02:00 [INF] Executed page /Account/Login in 110.5431ms
+2021-08-03 22:28:35.492 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 22:28:35.493 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login?ReturnUrl=%2FCategories - - - 200 - text/html;+charset=utf-8 167.5050ms
+2021-08-03 22:28:44.817 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/Login?ReturnUrl=%2FCategories application/x-www-form-urlencoded 265
+2021-08-03 22:28:44.822 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 22:28:44.822 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 22:28:44.854 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2021-08-03 22:28:45.716 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 22:28:46.701 +02:00 [INF] Executed DbCommand (50ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2021-08-03 22:28:46.882 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-08-03 22:28:46.892 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-08-03 22:28:46.893 +02:00 [INF] User logged in.
+2021-08-03 22:28:46.894 +02:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2021-08-03 22:28:46.897 +02:00 [INF] Executing LocalRedirectResult, redirecting to /Categories.
+2021-08-03 22:28:46.898 +02:00 [INF] Executed page /Account/Login in 2075.1912ms
+2021-08-03 22:28:46.898 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 22:28:46.902 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/Login?ReturnUrl=%2FCategories application/x-www-form-urlencoded 265 - 302 - - 2084.7962ms
+2021-08-03 22:28:46.902 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Categories - -
+2021-08-03 22:28:46.908 +02:00 [INF] Authorization was successful.
+2021-08-03 22:28:46.909 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.CategoriesController.Index (ReadLater5)'
+2021-08-03 22:28:46.910 +02:00 [INF] Route matched with {action = "Index", controller = "Categories", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.CategoriesController (ReadLater5).
+2021-08-03 22:28:46.934 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 22:28:46.952 +02:00 [INF] Executed DbCommand (11ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[ID], [c].[Name], [c].[UserID]
+FROM [Categories] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2021-08-03 22:28:46.955 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 22:28:46.965 +02:00 [INF] Executed ViewResult - view Index executed in 11.2409ms.
+2021-08-03 22:28:46.965 +02:00 [INF] Executed action ReadLater5.Controllers.CategoriesController.Index (ReadLater5) in 55.8014ms
+2021-08-03 22:28:46.965 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.CategoriesController.Index (ReadLater5)'
+2021-08-03 22:28:46.966 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Categories - - - 200 - text/html;+charset=utf-8 63.4057ms
+2021-08-03 22:28:52.073 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks - -
+2021-08-03 22:28:52.076 +02:00 [INF] Authorization was successful.
+2021-08-03 22:28:52.076 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-03 22:28:52.078 +02:00 [INF] Route matched with {action = "Index", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-03 22:28:52.093 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 22:28:52.133 +02:00 [INF] Executed DbCommand (33ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-03 22:28:52.134 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 22:28:52.145 +02:00 [INF] Executed ViewResult - view Index executed in 11.6488ms.
+2021-08-03 22:28:52.145 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Index (ReadLater5) in 66.424ms
+2021-08-03 22:28:52.145 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-03 22:28:52.145 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks - - - 200 - text/html;+charset=utf-8 72.5654ms
+2021-08-03 22:29:06.275 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks - -
+2021-08-03 22:29:06.276 +02:00 [INF] Authorization was successful.
+2021-08-03 22:29:06.276 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-03 22:29:06.276 +02:00 [INF] Route matched with {action = "Index", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-03 22:29:06.276 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 22:29:06.279 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-03 22:29:06.280 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 22:29:06.281 +02:00 [INF] Executed ViewResult - view Index executed in 1.7553ms.
+2021-08-03 22:29:06.282 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Index (ReadLater5) in 6.2144ms
+2021-08-03 22:29:06.282 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-03 22:29:06.282 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks - - - 200 - text/html;+charset=utf-8 7.9743ms
+2021-08-03 22:29:06.467 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/favicon.ico - -
+2021-08-03 22:29:06.489 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\favicon.ico'
+2021-08-03 22:29:06.490 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/favicon.ico - - - 200 5430 image/x-icon 22.6511ms
+2021-08-03 22:29:22.603 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - -
+2021-08-03 22:29:22.610 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2021-08-03 22:29:22.616 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - - - 200 311949 text/plain 13.8535ms
+2021-08-03 22:29:22.618 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/css/bootstrap.min.css.map - -
+2021-08-03 22:29:22.633 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'D:\Projects\readLater\ReadLater5\ReadLater5\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2021-08-03 22:29:22.644 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/lib/bootstrap/dist/css/bootstrap.min.css.map - - - 200 625953 text/plain 25.7949ms
+2021-08-03 22:29:50.224 +02:00 [INF] User profile is available. Using 'C:\Users\Tose\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-08-03 22:29:50.518 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-03 22:29:50.518 +02:00 [INF] Hosting environment: Development
+2021-08-03 22:29:50.518 +02:00 [INF] Content root path: D:\Projects\readLater\ReadLater5\ReadLater5
+2021-08-03 22:29:50.571 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/ - -
+2021-08-03 22:29:50.665 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:29:50.719 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.HomeController (ReadLater5).
+2021-08-03 22:29:50.813 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 22:29:51.127 +02:00 [INF] Executed ViewResult - view Index executed in 319.0109ms.
+2021-08-03 22:29:51.129 +02:00 [INF] Executed action ReadLater5.Controllers.HomeController.Index (ReadLater5) in 409.8454ms
+2021-08-03 22:29:51.130 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.HomeController.Index (ReadLater5)'
+2021-08-03 22:29:51.155 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/ - - - 200 - text/html;+charset=utf-8 585.5500ms
+2021-08-03 22:29:52.513 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks - -
+2021-08-03 22:29:52.522 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-08-03 22:29:52.528 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2021-08-03 22:29:52.529 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks - - - 302 - - 15.5023ms
+2021-08-03 22:29:52.531 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Identity/Account/Login?ReturnUrl=%2FBookmarks - -
+2021-08-03 22:29:52.541 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 22:29:52.559 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 22:29:52.578 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2021-08-03 22:29:52.590 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-08-03 22:29:52.591 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2021-08-03 22:29:52.594 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-08-03 22:29:52.594 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-08-03 22:29:52.664 +02:00 [INF] Executed page /Account/Login in 100.046ms
+2021-08-03 22:29:52.664 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 22:29:52.664 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Identity/Account/Login?ReturnUrl=%2FBookmarks - - - 200 - text/html;+charset=utf-8 132.7335ms
+2021-08-03 22:30:02.514 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44326/Identity/Account/Login?ReturnUrl=%2FBookmarks application/x-www-form-urlencoded 265
+2021-08-03 22:30:02.519 +02:00 [INF] Executing endpoint '/Account/Login'
+2021-08-03 22:30:02.519 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2021-08-03 22:30:02.550 +02:00 [INF] Executing handler method ReadLater5.Areas.Identity.Pages.Account.LoginModel.OnPostAsync - ModelState is "Valid"
+2021-08-03 22:30:03.133 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 22:30:03.748 +02:00 [INF] Executed DbCommand (55ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2021-08-03 22:30:04.037 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-08-03 22:30:04.046 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-08-03 22:30:04.048 +02:00 [INF] User logged in.
+2021-08-03 22:30:04.049 +02:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2021-08-03 22:30:04.051 +02:00 [INF] Executing LocalRedirectResult, redirecting to /Bookmarks.
+2021-08-03 22:30:04.052 +02:00 [INF] Executed page /Account/Login in 1532.4383ms
+2021-08-03 22:30:04.052 +02:00 [INF] Executed endpoint '/Account/Login'
+2021-08-03 22:30:04.057 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44326/Identity/Account/Login?ReturnUrl=%2FBookmarks application/x-www-form-urlencoded 265 - 302 - - 1542.6946ms
+2021-08-03 22:30:04.057 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks - -
+2021-08-03 22:30:04.063 +02:00 [INF] Authorization was successful.
+2021-08-03 22:30:04.063 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-03 22:30:04.064 +02:00 [INF] Route matched with {action = "Index", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-03 22:30:04.088 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 22:30:04.097 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-03 22:30:04.100 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 22:30:04.113 +02:00 [INF] Executed ViewResult - view Index executed in 13.7715ms.
+2021-08-03 22:30:04.113 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Index (ReadLater5) in 49.1109ms
+2021-08-03 22:30:04.113 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-03 22:30:04.113 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks - - - 200 - text/html;+charset=utf-8 56.1966ms
+2021-08-03 22:30:04.173 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44326/Bookmarks - -
+2021-08-03 22:30:04.175 +02:00 [INF] Authorization was successful.
+2021-08-03 22:30:04.175 +02:00 [INF] Executing endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-03 22:30:04.175 +02:00 [INF] Route matched with {action = "Index", controller = "Bookmarks", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReadLater5.Controllers.BookmarksController (ReadLater5).
+2021-08-03 22:30:04.181 +02:00 [INF] Entity Framework Core 5.0.8 initialized 'ReadLaterDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-08-03 22:30:04.184 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__userId_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[CategoryId], [b].[CreateDate], [b].[ShortDescription], [b].[URL], [b].[UserID]
+FROM [Bookmark] AS [b]
+WHERE [b].[UserID] = @__userId_0
+2021-08-03 22:30:04.184 +02:00 [INF] Executing ViewResult, running view Index.
+2021-08-03 22:30:04.186 +02:00 [INF] Executed ViewResult - view Index executed in 1.6102ms.
+2021-08-03 22:30:04.186 +02:00 [INF] Executed action ReadLater5.Controllers.BookmarksController.Index (ReadLater5) in 11.1085ms
+2021-08-03 22:30:04.186 +02:00 [INF] Executed endpoint 'ReadLater5.Controllers.BookmarksController.Index (ReadLater5)'
+2021-08-03 22:30:04.187 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44326/Bookmarks - - - 200 - text/html;+charset=utf-8 13.0753ms

@@ -60,33 +60,34 @@ namespace ReadLater5
 
 
             services.AddAuthentication(
-            ).AddJwtBearer(options =>
-            {
-                options.SaveToken = true;
-                options.RequireHttpsMetadata = false;
-                options.TokenValidationParameters = new TokenValidationParameters()
+                ).AddJwtBearer(options =>
                 {
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidAudience = Configuration["Token:Audience"],
-                    ValidIssuer = Configuration["Token:Issuer"],
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Token:Key"]))
-                };
-            });
-                //.AddGoogle(options =>
-                //{
-                //    IConfigurationSection googleAuthNSection =
-                //        Configuration.GetSection("Authentication:Google");
+                    options.SaveToken = true;
+                    options.RequireHttpsMetadata = false;
+                    options.TokenValidationParameters = new TokenValidationParameters()
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidAudience = Configuration["Token:Audience"],
+                        ValidIssuer = Configuration["Token:Issuer"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Token:Key"]))
+                    };
+                })
+                .AddGoogle(options =>
+                {
+                    //IConfigurationSection googleAuthNSection =
+                    //    Configuration.GetSection("Authentication:Google");
 
-                //    options.ClientId = googleAuthNSection["ClientId"];
-                //    options.ClientSecret = googleAuthNSection["ClientSecret"];
-                //}).AddFacebook(facebookOptions =>
-                //{
-                //    facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
-                //    facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
-                //});
+                    options.ClientId = Configuration["Google:Authentication:Google:ClientId"];
+                    options.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
+                })
+                .AddFacebook(facebookOptions =>
+                {
+                    facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
+                    facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+                });
 
-         
+
 
             var assembly = AppDomain.CurrentDomain.Load("Services");
             services.AddMediatR(assembly);
