@@ -1,4 +1,4 @@
-﻿@model Entity.Bookmark
+﻿@model Services.ServiceModels.BookmarkVM
 
 @{
     ViewData["Title"] = "Create";
@@ -150,6 +150,33 @@
         </div>
     </div>
 </div>
+<div class="container">
+    <div class="row">
+        <div class="modal fade" id="ignismyModalfalse" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label=""><span>×</span></button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <div class="thank-you-pop">
+                            <img src="https://www.pngfind.com/pngs/m/3-31254_red-cross-mark-clipart-black-background-red-x.png" alt="">
+                            <h1>Thank You!</h1>
+                            <p>The category exists</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
 
 
@@ -175,12 +202,16 @@
                 },
                 contentType: 'application/x-www-form-urlencoded; charset=utf-8',
                 success: function (result) {
-                    $('#ignismyModal').modal('show');
-                    $('#CategoryName').val("");
+
+                    console.log(result);
+                        $('#ignismyModal').modal('show');
+                        $('#CategoryName').val("");
+                    
+                    
                 },
                 error: function(errors) {
 
-                    console.log(errors);
+                    $('#ignismyModalfalse').modal('show');
                 }
             });
         });

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Entity;
 
-namespace Services.ViewModels
+namespace Services.ServiceModels
 {
    public class BookmarkVM
     {

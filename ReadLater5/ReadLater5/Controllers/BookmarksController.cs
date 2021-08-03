@@ -9,9 +9,12 @@ using Entity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Services;
+using Services.ServiceModels;
+using Services.Interfaces;
 
 namespace ReadLater5.Controllers
 {
+    [Authorize]
     public class BookmarksController : Controller
     {
 
@@ -25,37 +28,23 @@ namespace ReadLater5.Controllers
              _iCategoryService = iCategoryService;
          }
         // GET: Bookmarks
-        [Authorize]
+      
         public IActionResult Index()
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            List<Bookmark> model = _iBookmarkService.GetBookmarksByUser(userId);
-
-            var categ = _iCategoryService.GetCategories();
-
-            foreach (var item in model)
-            {
-                item.Category = new Category
-                {
-                    Name = categ.FirstOrDefault(x => x.ID == item.CategoryId).Name
-                };
-               
-
-
-            }
-
+            List<BookmarkVM> model = _iBookmarkService.GetBookmarksByUser(userId);
             return View(model);
         }
 
         // GET: Bookmarks/Details/5
-        [Authorize]
+    
         public IActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult(Microsoft.AspNetCore.Http.StatusCodes.Status400BadRequest);
             }
-            Bookmark bookmark = _iBookmarkService.GetBookmarkById((int)id);
+            BookmarkVM bookmark = _iBookmarkService.GetBookmarkById((int)id);
             if (bookmark == null)
             {
                 return new StatusCodeResult(Microsoft.AspNetCore.Http.StatusCodes.Status404NotFound);
@@ -65,7 +54,7 @@ namespace ReadLater5.Controllers
         }
 
         // GET: Bookmarks/Create
-        [Authorize]
+    
         public IActionResult Create()
         {
             var categories = _iCategoryService.GetCategories().Select(x=>x.Name);
@@ -87,12 +76,12 @@ namespace ReadLater5.Controllers
 
             return View();
         }
-
+    
         // POST: Bookmarks/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize]
-        public IActionResult Create( Bookmark bookmark)
+  
+        public IActionResult Create( BookmarkVM bookmark)
         {
             
             if (ModelState.IsValid)
@@ -119,14 +108,14 @@ namespace ReadLater5.Controllers
         }
 
         // GET: Bookmarks/Edit/5
-        [Authorize]
+      
         public IActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult(Microsoft.AspNetCore.Http.StatusCodes.Status400BadRequest);
             }
-            Bookmark bookmark = _iBookmarkService.GetBookmarkById((int)id);
+            BookmarkVM bookmark = _iBookmarkService.GetBookmarkById((int)id);
             if (bookmark == null)
             {
                 return new StatusCodeResult(Microsoft.AspNetCore.Http.StatusCodes.Status404NotFound);
@@ -137,8 +126,8 @@ namespace ReadLater5.Controllers
         // POST: Bookmarks/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize]
-        public IActionResult Edit(Bookmark bookmark)
+
+        public IActionResult Edit(BookmarkVM bookmark)
         {
             if (ModelState.IsValid)
             {
@@ -154,14 +143,14 @@ namespace ReadLater5.Controllers
         }
 
         // GET: Bookmarks/Delete/5
-        [Authorize]
+      
         public IActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new StatusCodeResult(Microsoft.AspNetCore.Http.StatusCodes.Status400BadRequest);
             }
-            Bookmark bookmark = _iBookmarkService.GetBookmarkById((int)id);
+            BookmarkVM bookmark = _iBookmarkService.GetBookmarkById((int)id);
             if (bookmark == null)
             {
                 return new StatusCodeResult(Microsoft.AspNetCore.Http.StatusCodes.Status404NotFound);
@@ -172,10 +161,10 @@ namespace ReadLater5.Controllers
         // POST: Bookmarks/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize]
+  
         public IActionResult DeleteConfirmed(int id)
         {
-            Bookmark bookmark = _iBookmarkService.GetBookmarkById(id);
+            BookmarkVM bookmark = _iBookmarkService.GetBookmarkById(id);
             _iBookmarkService.DeleteBookmark(bookmark);
             return RedirectToAction("Index");
         }

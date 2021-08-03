@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Data;
+using Services.Interfaces;
+using Services.ServiceModels;
 
 namespace Services
 {
@@ -19,46 +21,119 @@ namespace Services
             _ReadLaterDataContext = readLaterDataContext;
             _iCategoryService = iCategoryService;
         }
-        public Bookmark CreateBookmark(Bookmark bookmark)
+        public Bookmark CreateBookmark(BookmarkVM bookmark)
         {
+            var entityBookmark = new Bookmark();
             var bookmarkId = _iCategoryService.GetCategory(bookmark.Category.Name);
 
             if (bookmarkId != null)
             {
-                bookmark.CategoryId = bookmarkId.ID;
+                entityBookmark.CategoryId = bookmarkId.ID;
             }
-            bookmark.CreateDate = DateTime.UtcNow;
+            entityBookmark.ShortDescription = bookmark.ShortDescription;
+            entityBookmark.URL = bookmark.URL;
+            entityBookmark.UserID = bookmark.UserID;
+            entityBookmark.CreateDate = DateTime.UtcNow;
         
-            _ReadLaterDataContext.Add(bookmark);
+            _ReadLaterDataContext.Add(entityBookmark);
             _ReadLaterDataContext.SaveChanges();
-            return bookmark;
+
+            return entityBookmark;
         }
 
-        public void DeleteBookmark(Bookmark bookmark)
+        public void DeleteBookmark(BookmarkVM bookmark)
         {
-            _ReadLaterDataContext.Bookmark.Remove(bookmark);
-            _ReadLaterDataContext.SaveChanges();
+            var removedBookmark = _ReadLaterDataContext.Bookmark.Where(c => c.ID == bookmark.ID).FirstOrDefault();
+
+            if (removedBookmark != null)
+            {
+                _ReadLaterDataContext.Bookmark.Remove(removedBookmark);
+                _ReadLaterDataContext.SaveChanges();
+            }
+
+            
         }
 
-        public List<Bookmark> GetBookmarksByUser(string userId)
+        public List<BookmarkVM> GetBookmarksByUser(string userId)
         {
-            return _ReadLaterDataContext.Bookmark.Where(c => c.UserID == userId).ToList();
+            var bookmarks = _ReadLaterDataContext.Bookmark.Where(c => c.UserID == userId).ToList();
+
+            var listOfBookmarksVM = new List<BookmarkVM>();
+            
+
+            foreach (var item in bookmarks)
+            {
+                var bookmarkSM = new BookmarkVM();
+                bookmarkSM.ID = item.ID;
+                bookmarkSM.ShortDescription = item.ShortDescription;
+                bookmarkSM.URL = item.URL;
+                bookmarkSM.CreateDate = item.CreateDate;
+                bookmarkSM.Category = _ReadLaterDataContext.Categories.Where(c => c.ID == item.CategoryId)
+                    .FirstOrDefault();
+                bookmarkSM.UserID = item.UserID;
+                listOfBookmarksVM.Add(bookmarkSM);
+            }
+
+            return listOfBookmarksVM;
         }
 
-        public Bookmark GetBookmarkById(int Id)
+        public BookmarkVM GetBookmarkById(int Id)
         {
-            return _ReadLaterDataContext.Bookmark.Where(c => c.ID == Id).FirstOrDefault();
+            var bookmark = _ReadLaterDataContext.Bookmark.Where(c => c.ID == Id).FirstOrDefault();
+            var bookmarkSM = new BookmarkVM
+            {
+                ID = bookmark.ID,
+                ShortDescription = bookmark.ShortDescription,
+                URL = bookmark.URL,
+                CreateDate = bookmark.CreateDate,
+                UserID = bookmark.UserID,
+                Category = _ReadLaterDataContext.Categories.Where(c => c.ID == bookmark.CategoryId)
+                .FirstOrDefault()
+        };
+            return bookmarkSM;
         }
 
-        public List<Bookmark> GetBookmarks()
+        public List<BookmarkVM> GetBookmarks()
         {
-            return _ReadLaterDataContext.Bookmark.ToList();
+            var bookmarks = _ReadLaterDataContext.Bookmark.ToList();
+
+            var listOfBookmarksVM = new List<BookmarkVM>();
+            
+
+            foreach (var item in bookmarks)
+            {
+                var bookmarkSM = new BookmarkVM();
+                bookmarkSM.ID = item.ID;
+                bookmarkSM.ShortDescription = item.ShortDescription;
+                bookmarkSM.URL = item.URL;
+                bookmarkSM.CreateDate = item.CreateDate;
+                bookmarkSM.UserID = item.UserID;
+                bookmarkSM.Category = _ReadLaterDataContext.Categories.Where(c => c.ID == item.CategoryId)
+                    .FirstOrDefault();
+                listOfBookmarksVM.Add(bookmarkSM);
+            }
+
+            return listOfBookmarksVM;
         }
 
-        public void UpdateBookmark(Bookmark bookmark)
+        public void UpdateBookmark(BookmarkVM bookmark)
         {
-            _ReadLaterDataContext.Update(bookmark);
-            _ReadLaterDataContext.SaveChanges();
+            
+            var ent = _ReadLaterDataContext.Bookmark.Where(c => c.ID == bookmark.ID).FirstOrDefault();
+
+            ent.UserID = bookmark.UserID;
+            ent.CategoryId = bookmark.Category.ID;
+            ent.ID = bookmark.ID;
+            ent.CreateDate = bookmark.CreateDate;
+            ent.ShortDescription = bookmark.ShortDescription;
+            ent.URL = bookmark.URL;
+            
+             
+                _ReadLaterDataContext.Update(ent);
+                _ReadLaterDataContext.SaveChanges();
+
         }
+
+        
     }
 }

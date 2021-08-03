@@ -5,8 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MediatR;
-using Services.ViewModels;
 using System.Threading;
+using Entity;
+using Services.Interfaces;
+using Services.ServiceModels;
 
 namespace Services.Features
 {
@@ -43,12 +45,18 @@ namespace Services.Features
                     {
                         var bookmarksVmList = new List<BookmarkVM>();
 
-                        var bookmarkVM = new BookmarkVM();
+                      
 
                         foreach (var item in listOfBookmarks)
                         {
+                            var bookmarkVM = new BookmarkVM();
                             bookmarkVM.ID = item.ID;
-                            bookmarkVM.CategoryId = item.CategoryId;
+                            bookmarkVM.Category = new Category
+                            {
+                                UserID = item.Category.UserID,
+                                ID = item.Category.ID,
+                                Name = item.Category.Name
+                            };
                             bookmarkVM.CreateDate = item.CreateDate;
                             bookmarkVM.UserID = item.UserID;
                             bookmarkVM.ShortDescription = item.ShortDescription;

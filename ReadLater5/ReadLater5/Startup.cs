@@ -18,6 +18,7 @@ using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.IdentityModel.Tokens;
+using Services.Interfaces;
 
 namespace ReadLater5
 {
@@ -56,38 +57,34 @@ namespace ReadLater5
                 options.Sender_Name = "Read Later";
             });
 
-            
 
-            services.AddAuthentication(options =>
-                {
-                    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-                    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-                }).AddJwtBearer(options =>
-                {
-                    options.SaveToken = true;
-                    options.RequireHttpsMetadata = false;
-                    options.TokenValidationParameters = new TokenValidationParameters()
-                    {
-                        ValidateIssuer = true,
-                        ValidateAudience = true,
-                        ValidAudience = Configuration["Token:Audience"],
-                        ValidIssuer = Configuration["Token:Issuer"],
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Token:Key"]))
-                    };
-                })
-                .AddGoogle(options =>
-                {
-                    IConfigurationSection googleAuthNSection =
-                        Configuration.GetSection("Authentication:Google");
 
-                    options.ClientId = googleAuthNSection["ClientId"];
-                    options.ClientSecret = googleAuthNSection["ClientSecret"];
-                }).AddFacebook(facebookOptions =>
+            services.AddAuthentication(
+            ).AddJwtBearer(options =>
+            {
+                options.SaveToken = true;
+                options.RequireHttpsMetadata = false;
+                options.TokenValidationParameters = new TokenValidationParameters()
                 {
-                    facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
-                    facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
-                });
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidAudience = Configuration["Token:Audience"],
+                    ValidIssuer = Configuration["Token:Issuer"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Token:Key"]))
+                };
+            });
+                //.AddGoogle(options =>
+                //{
+                //    IConfigurationSection googleAuthNSection =
+                //        Configuration.GetSection("Authentication:Google");
+
+                //    options.ClientId = googleAuthNSection["ClientId"];
+                //    options.ClientSecret = googleAuthNSection["ClientSecret"];
+                //}).AddFacebook(facebookOptions =>
+                //{
+                //    facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
+                //    facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+                //});
 
          
 
