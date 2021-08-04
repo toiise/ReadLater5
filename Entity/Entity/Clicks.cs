@@ -11,7 +11,7 @@ namespace Entity
     {
         [Key]
         public int ID { get; set; }
-        [StringLength(maximumLength: 50)]
+        [StringLength(maximumLength: 450)]
         public string Url { get; set; }
         public string UserID { get; set; }
         public DateTime CreateDate { get; set; }

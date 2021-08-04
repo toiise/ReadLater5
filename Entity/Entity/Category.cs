@@ -14,6 +14,7 @@ namespace Entity
         public int ID { get; set; }
 
         [StringLength(maximumLength: 50)]
+        [Required]
         public string Name { get; set; }
 
         public string UserID { get; set; }

@@ -20,19 +20,23 @@ namespace Services
         }
         public Clicks AddClick(string url, string userId)
         {
-            var addedClick = new Clicks
+            var addedClick = new Clicks();
+            if (url != null)
             {
-                Url = url,
-                CreateDate = DateTime.Now
-            };
+                addedClick.Url = url;
+                addedClick.CreateDate = DateTime.Now;
+            }
 
             if (userId != null)
             {
                 addedClick.UserID = userId;
             }
 
-            _ReadLaterDataContext.Clicks.Add(addedClick);
-            _ReadLaterDataContext.SaveChanges();
+            if (addedClick.Url != null)
+            {
+                _ReadLaterDataContext.Clicks.Add(addedClick);
+                _ReadLaterDataContext.SaveChanges();
+            }
 
             return addedClick;
 

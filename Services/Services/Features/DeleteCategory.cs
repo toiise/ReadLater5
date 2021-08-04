@@ -41,13 +41,13 @@ namespace Services.Features
                     if (category.Name != null)
                     {
                         _iCategoryService.DeleteCategory(category);
+                        return await Task.FromResult(new Response { deleted = "Category was deleted" });
                     }
                     else
                     {
                         return await Task.FromResult(new Response { deleted = "Category not found" });
                     }
 
-                    return await Task.FromResult(new Response { deleted = "Category was deleted" });
                 }
                 catch (Exception e)
                 {

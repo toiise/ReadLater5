@@ -30,14 +30,24 @@ namespace Services
             {
                 entityBookmark.CategoryId = bookmarkId.ID;
             }
-            entityBookmark.ShortDescription = bookmark.ShortDescription;
-            entityBookmark.URL = bookmark.URL;
+
+            if (bookmark.URL != null)
+            {
+                entityBookmark.URL = bookmark.URL;
+            }
+
+            if (bookmark.ShortDescription != null)
+            {
+                entityBookmark.ShortDescription = bookmark.ShortDescription;
+            }
             entityBookmark.UserID = bookmark.UserID;
             entityBookmark.CreateDate = DateTime.UtcNow;
-        
-            _ReadLaterDataContext.Add(entityBookmark);
-            _ReadLaterDataContext.SaveChanges();
 
+            if (entityBookmark.URL != null)
+            {
+                _ReadLaterDataContext.Add(entityBookmark);
+                _ReadLaterDataContext.SaveChanges();
+            }
             return entityBookmark;
         }
 
@@ -59,37 +69,39 @@ namespace Services
             var bookmarks =  _ReadLaterDataContext.Bookmark.Where(c => c.UserID == userId).ToList();
 
             var listOfBookmarksVM = new List<BookmarkVM>();
-            
 
-            foreach (var item in bookmarks)
+            if (bookmarks.Any())
             {
-                var bookmarkSM = new BookmarkVM();
-                bookmarkSM.ID = item.ID;
-                bookmarkSM.ShortDescription = item.ShortDescription;
-                bookmarkSM.URL = item.URL;
-                bookmarkSM.CreateDate = item.CreateDate;
-                bookmarkSM.Category = _ReadLaterDataContext.Categories.Where(c => c.ID == item.CategoryId)
-                    .FirstOrDefault();
-                bookmarkSM.UserID = item.UserID;
-                listOfBookmarksVM.Add(bookmarkSM);
+                foreach (var item in bookmarks)
+                {
+                    var bookmarkSM = new BookmarkVM();
+                    bookmarkSM.ID = item.ID;
+                    bookmarkSM.ShortDescription = item.ShortDescription;
+                    bookmarkSM.URL = item.URL;
+                    bookmarkSM.CreateDate = item.CreateDate;
+                    bookmarkSM.Category = _ReadLaterDataContext.Categories.Where(c => c.ID == item.CategoryId)
+                        .FirstOrDefault();
+                    bookmarkSM.UserID = item.UserID;
+                    listOfBookmarksVM.Add(bookmarkSM);
+                }
             }
-
             return Task.FromResult(listOfBookmarksVM) ;
         }
 
         public BookmarkVM GetBookmarkById(int Id)
         {
             var bookmark = _ReadLaterDataContext.Bookmark.Where(c => c.ID == Id).FirstOrDefault();
-            var bookmarkSM = new BookmarkVM
+            var bookmarkSM = new BookmarkVM();
+            if (bookmark.URL != null)
             {
-                ID = bookmark.ID,
-                ShortDescription = bookmark.ShortDescription,
-                URL = bookmark.URL,
-                CreateDate = bookmark.CreateDate,
-                UserID = bookmark.UserID,
-                Category = _ReadLaterDataContext.Categories.Where(c => c.ID == bookmark.CategoryId)
-                .FirstOrDefault()
-        };
+                bookmarkSM.ID = bookmark.ID;
+                bookmarkSM.ShortDescription = bookmark.ShortDescription;
+                bookmarkSM.URL = bookmark.URL;
+                bookmarkSM.CreateDate = bookmark.CreateDate;
+                bookmarkSM.UserID = bookmark.UserID;
+                bookmarkSM.Category = _ReadLaterDataContext.Categories.Where(c => c.ID == bookmark.CategoryId)
+                    .FirstOrDefault();
+            }
             return bookmarkSM;
         }
 
@@ -98,19 +110,21 @@ namespace Services
             var bookmarks = _ReadLaterDataContext.Bookmark.ToList();
 
             var listOfBookmarksVM = new List<BookmarkVM>();
-            
 
-            foreach (var item in bookmarks)
+            if (bookmarks.Any())
             {
-                var bookmarkSM = new BookmarkVM();
-                bookmarkSM.ID = item.ID;
-                bookmarkSM.ShortDescription = item.ShortDescription;
-                bookmarkSM.URL = item.URL;
-                bookmarkSM.CreateDate = item.CreateDate;
-                bookmarkSM.UserID = item.UserID;
-                bookmarkSM.Category = _ReadLaterDataContext.Categories.Where(c => c.ID == item.CategoryId)
-                    .FirstOrDefault();
-                listOfBookmarksVM.Add(bookmarkSM);
+                foreach (var item in bookmarks)
+                {
+                    var bookmarkSM = new BookmarkVM();
+                    bookmarkSM.ID = item.ID;
+                    bookmarkSM.ShortDescription = item.ShortDescription;
+                    bookmarkSM.URL = item.URL;
+                    bookmarkSM.CreateDate = item.CreateDate;
+                    bookmarkSM.UserID = item.UserID;
+                    bookmarkSM.Category = _ReadLaterDataContext.Categories.Where(c => c.ID == item.CategoryId)
+                        .FirstOrDefault();
+                    listOfBookmarksVM.Add(bookmarkSM);
+                }
             }
 
             return listOfBookmarksVM;
@@ -121,17 +135,19 @@ namespace Services
             
             var ent = _ReadLaterDataContext.Bookmark.Where(c => c.ID == bookmark.ID).FirstOrDefault();
 
-            ent.UserID = bookmark.UserID;
-            ent.CategoryId = bookmark.Category.ID;
-            ent.ID = bookmark.ID;
-            ent.CreateDate = bookmark.CreateDate;
-            ent.ShortDescription = bookmark.ShortDescription;
-            ent.URL = bookmark.URL;
-            
-             
+            if (ent.URL != null)
+            {
+                ent.UserID = bookmark.UserID;
+                ent.CategoryId = bookmark.Category.ID;
+                ent.ID = bookmark.ID;
+                ent.CreateDate = bookmark.CreateDate;
+                ent.ShortDescription = bookmark.ShortDescription;
+                ent.URL = bookmark.URL;
+
+
                 _ReadLaterDataContext.Update(ent);
                 _ReadLaterDataContext.SaveChanges();
-
+            }
         }
 
         

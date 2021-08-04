@@ -26,14 +26,17 @@ namespace Services
 
         public Category CreateCategory(CategoryVM category)
         {
+
             var entitycategory = new Category();
 
-            entitycategory.UserID = category.UserID;
-            entitycategory.Name = category.Name;
+            if (category != null)
+            {
+                entitycategory.UserID = category.UserID;
+                entitycategory.Name = category.Name;
 
-            _ReadLaterDataContext.Add(entitycategory);
-            _ReadLaterDataContext.SaveChanges();
-
+                _ReadLaterDataContext.Add(entitycategory);
+                _ReadLaterDataContext.SaveChanges();
+            }
             return entitycategory;
         }
 
@@ -41,12 +44,17 @@ namespace Services
         {
             var ent = _ReadLaterDataContext.Categories.Where(c => c.ID == categoryVM.ID).FirstOrDefault();
 
-            ent.Name = categoryVM.Name;
-            ent.ID = categoryVM.ID ?? ent.ID;
-            ent.UserID = categoryVM.UserID;
+            if (ent != null)
+            {
+                ent.Name = categoryVM.Name;
+                ent.ID = categoryVM.ID ?? ent.ID;
+                ent.UserID = categoryVM.UserID;
 
-            _ReadLaterDataContext.Update(ent);
-            _ReadLaterDataContext.SaveChanges();
+                _ReadLaterDataContext.Update(ent);
+                _ReadLaterDataContext.SaveChanges();
+            }
+
+          
         }
 
         public List<CategoryVM> GetCategories()
@@ -54,16 +62,18 @@ namespace Services
             var categories = _ReadLaterDataContext.Categories.ToList();
 
             var listOfCategoriesVM = new List<CategoryVM>();
-          
 
-            foreach (var item in categories)
+            if (categories.Any())
             {
-                var categorySM = new CategoryVM();
-                categorySM.ID = item.ID;
-                categorySM.Name = item.Name;
-                categorySM.UserID = item.UserID;
+                foreach (var item in categories)
+                {
+                    var categorySM = new CategoryVM();
+                    categorySM.ID = item.ID;
+                    categorySM.Name = item.Name;
+                    categorySM.UserID = item.UserID;
 
-                listOfCategoriesVM.Add(categorySM);
+                    listOfCategoriesVM.Add(categorySM);
+                }
             }
 
             return listOfCategoriesVM;
@@ -95,12 +105,15 @@ namespace Services
         {
             var category = _ReadLaterDataContext.Categories.Where(c => c.Name == Name).FirstOrDefault();
 
-            var categorySM = new CategoryVM
+            var categorySM = new CategoryVM();
+
+            if (category != null)
             {
-                UserID = category?.UserID,
-                Name = category?.Name,
-                ID = category?.ID
-            };
+                categorySM.UserID = category?.UserID;
+                categorySM.Name = category?.Name;
+                categorySM.ID = category?.ID;
+
+            }
 
             return categorySM;
         }
@@ -109,25 +122,42 @@ namespace Services
         {
             var categoryCore = _ReadLaterDataContext.Categories.Where(c => c.ID == category.ID).FirstOrDefault();
 
-            _ReadLaterDataContext.Categories.Remove(categoryCore);
-            _ReadLaterDataContext.SaveChanges();
+            if (categoryCore != null)
+            {
+                _ReadLaterDataContext.Categories.Remove(categoryCore);
+                _ReadLaterDataContext.SaveChanges();
+            }
+
+            
         }
 
         public List<CategoryVM> GetCategoriesByUser(string userId)
         {
-            var categories = _ReadLaterDataContext.Categories.Where(c => c.UserID == userId).ToList();
-
-            var listOfCategoriesVM = new List<CategoryVM>();
+            try
+            {
+                var categories = _ReadLaterDataContext.Categories?.Where(c => c.UserID == userId)?.ToList();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
            
 
-            foreach (var item in categories)
-            {
-                var categorykSM = new CategoryVM();
-                categorykSM.ID = item.ID;
-                categorykSM.Name = item.Name;
-                categorykSM.UserID = item.UserID;
-                listOfCategoriesVM.Add(categorykSM);
-            }
+
+            var listOfCategoriesVM = new List<CategoryVM>();
+
+            //if (categories.Any())
+            //{
+            //    foreach (var item in categories)
+            //    {
+            //        var categorykSM = new CategoryVM();
+            //        categorykSM.ID = item.ID;
+            //        categorykSM.Name = item.Name;
+            //        categorykSM.UserID = item.UserID;
+            //        listOfCategoriesVM.Add(categorykSM);
+            //    }
+            //}
 
             return listOfCategoriesVM;
         }

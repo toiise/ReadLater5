@@ -39,19 +39,15 @@ namespace Services.Features
                 {
                     var bookmark =  _IBookmarkService.GetBookmarkById(request.ID);
 
-                    if (bookmark.ShortDescription != null)
+                    if (bookmark.URL != null)
                     {
                         _IBookmarkService.DeleteBookmark(bookmark);
+                        return await Task.FromResult(new Response { deleted = "Bookmark was deleted" });
                     }
                     else
                     {
                         return await Task.FromResult(new Response { deleted = "Bookmark not found" });
                     }
-
-                 
-                    
-
-                    return await Task.FromResult(new Response {deleted = "Bookmark was deleted" });
                 }
                 catch (Exception e)
                 {
