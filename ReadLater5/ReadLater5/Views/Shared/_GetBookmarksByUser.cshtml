@@ -4,22 +4,27 @@
 *@
 
 <div>
-    <table>
+    <table class="table">
         <thead>
-        <tr>
-            <th>URL</th>
-            <th>Short Description</th>
-        </tr>
+            <tr>
+                <th>URL</th>
+                <th>Short Description</th>
+                <th>Created Date</th>
+            </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
-                <tr>
-                    <td>@item.URL</td>
-                </tr>
-                <tr>
-                    <td>@item.ShortDescription</td>
-                </tr>
+            <tr>
+                <td>
+                    @Html.ActionLink(item.URL,
+                        "AddClick", "Bookmarks",
+                        new { url = item.URL },  new { target = "_blank" })
+                </td>
+
+                <td>@item.ShortDescription</td>
+                <td>@item.CreateDate.ToShortDateString()</td>
+            </tr>
             }
 
         </tbody>

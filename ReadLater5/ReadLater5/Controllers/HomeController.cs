@@ -5,7 +5,9 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Services.Interfaces;
 using Services.ServiceModels;
 
@@ -17,12 +19,14 @@ namespace ReadLater5.Controllers
 
         private readonly IClickService _clickService;
         private readonly IBookmarkService _bookmarkService;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public HomeController(ILogger<HomeController> logger, IClickService clickService, IBookmarkService bookmarkService)
+        public HomeController(ILogger<HomeController> logger, IClickService clickService, IBookmarkService bookmarkService, UserManager<IdentityUser> userManager)
         {
             _logger = logger;
             _clickService = clickService;
             _bookmarkService = bookmarkService;
+            _userManager = userManager;
         }
 
         public IActionResult Index()
@@ -65,7 +69,9 @@ namespace ReadLater5.Controllers
         [HttpPost]
         public async Task<ActionResult> LinksForUser(string userName)
         {
-            var clickVm = await _bookmarkService.GetBookmarksByUser(userName);
+            var user = await _userManager.FindByNameAsync(userName);
+            
+            var clickVm = await _bookmarkService.GetBookmarksByUser(user.Id);
 
             return PartialView("~/Views/Shared/_GetBookmarksByUser.cshtml", clickVm);
 

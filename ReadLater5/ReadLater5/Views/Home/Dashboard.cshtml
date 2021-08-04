@@ -45,9 +45,19 @@
     <div class="row">
         <div class="col-sm-6">
             <div class="row">
-                <input type="text" name="Username"/>
-                <button type="submit" id="btnSearch">Search</button>
-                <div id="bookmarksByUser">
+                <h3>All Bookmars by user</h3>
+                <div class="col-sm-12">
+                    @*<form class="form-inline">
+                        <div class="form-group mx-sm-3 mb-2">
+                            <label for="inputUsername" class="sr-only">Username</label>
+                            <input type="text" class="form-control" name="Username" id="inputPassword2" placeholder="Search by username">
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+                    </form>*@
+                    <input type="text" name="Username" class="form-control"/>
+                    <button type="submit" id="btnSearch" class="btn btn-info" style="float: right">Search</button>
+                </div>
+                <div id="bookmarksByUser" class="col-sm-12">
                     @Html.Partial("~/Views/Shared/_GetBookmarksByUser.cshtml", new List<BookmarkVM>())
                 </div>
             </div>
@@ -85,7 +95,7 @@
                     $.ajax({
                         type: 'POST',
                         data: { userName: username},
-                        url: url
+                        url: '/Home/LinksForUser',
                     }).done(function (response) {
                         $('#' + divId).html(response);
                     });

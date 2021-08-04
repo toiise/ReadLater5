@@ -18,6 +18,7 @@ using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Services.Interfaces;
 
 namespace ReadLater5
@@ -94,7 +95,17 @@ namespace ReadLater5
             var assembly = AppDomain.CurrentDomain.Load("Services");
             services.AddMediatR(assembly);
 
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Read Later API",
+                    Version = "v1"
+                });
+                c.CustomSchemaIds(type => type.ToString());
+            });
 
+           
 
             services.AddControllersWithViews();
         }
@@ -106,6 +117,8 @@ namespace ReadLater5
             {
                 app.UseDeveloperExceptionPage();
                 app.UseMigrationsEndPoint();
+
+               
             }
             else
             {
@@ -121,6 +134,12 @@ namespace ReadLater5
             app.UseAuthentication();
             app.UseAuthorization();
 
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Read Later API");
+            });
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
@@ -128,6 +147,7 @@ namespace ReadLater5
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+            app.UseDeveloperExceptionPage();
         }
     }
 }

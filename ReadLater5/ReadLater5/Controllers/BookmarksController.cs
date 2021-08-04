@@ -171,7 +171,7 @@ namespace ReadLater5.Controllers
             return RedirectToAction("Index");
         }
 
-
+        [AllowAnonymous]
         public IActionResult AddClick(string url)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
