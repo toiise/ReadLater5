@@ -39,7 +39,7 @@ namespace Services.Features
             {
                 var listOfBookmarks = _IBookmarkService.GetBookmarksByUser(request.Id);
 
-                if (listOfBookmarks.Any())
+                if (listOfBookmarks.Result.Any())
                 {
                     try
                     {
@@ -47,7 +47,7 @@ namespace Services.Features
 
                       
 
-                        foreach (var item in listOfBookmarks)
+                        foreach (var item in listOfBookmarks.Result)
                         {
                             var bookmarkVM = new BookmarkVM();
                             bookmarkVM.ID = item.ID;

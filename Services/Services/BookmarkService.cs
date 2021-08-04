@@ -54,9 +54,9 @@ namespace Services
             
         }
 
-        public List<BookmarkVM> GetBookmarksByUser(string userId)
+        public  Task<List<BookmarkVM>>  GetBookmarksByUser(string userId)
         {
-            var bookmarks = _ReadLaterDataContext.Bookmark.Where(c => c.UserID == userId).ToList();
+            var bookmarks =  _ReadLaterDataContext.Bookmark.Where(c => c.UserID == userId).ToList();
 
             var listOfBookmarksVM = new List<BookmarkVM>();
             
@@ -74,7 +74,7 @@ namespace Services
                 listOfBookmarksVM.Add(bookmarkSM);
             }
 
-            return listOfBookmarksVM;
+            return Task.FromResult(listOfBookmarksVM) ;
         }
 
         public BookmarkVM GetBookmarkById(int Id)

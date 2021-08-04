@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Services.ServiceModels.ClickVM>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<div>
+    <h3 style="text-align: center">Most clicked links today</h3>
+    <table id="topClicks" class="table" style="width: 100%">
+        <thead>
+        <tr>
+            <th>
+                URL
+            </th>
+            <th>
+                Total Clicks
+            </th>
+            <th style="text-align: right">
+                Share
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td><a href="@item.Url" target="_blank">@item.Url</a></td>
+                <td style="text-align: center">@item.TotalClicks</td>
+                <td style="text-align: right">
+                    <div class="fb-share-button" data-href="@item.Url" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></td>
+            </tr>
+        }
+
+        </tbody>
+    </table>
+</div>

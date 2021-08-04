@@ -1,0 +1,107 @@
+﻿@using Services.ServiceModels
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<meta property="og:url" content="https://localhost:44326/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Your Website Title" />
+<meta property="og:description" content="Your description" />
+<meta property="og:image" content="https://www.your-domain.com/path/image.jpg" />
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/mk_MK/sdk.js#xfbml=1&version=v11.0" nonce="stemEHWs"></script>
+
+@*<div>
+        @Html.Partial("_MostClicked", Model)
+    </div>
+
+
+    <div>
+        @Html.Partial("_TopFiveToday", Model)
+    </div>*@
+<div id="fb-root"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="row">
+                <div id="mostClicked">
+                    @Html.Partial("~/Views/Shared/_MostClicked.cshtml", new List<ClickVM>())
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="row">
+                <div id="mostClickedToday">
+                    @Html.Partial("~/Views/Shared/_TopFiveToday.cshtml", new List<ClickVM>())
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="row">
+                <input type="text" name="Username"/>
+                <button type="submit" id="btnSearch">Search</button>
+                <div id="bookmarksByUser">
+                    @Html.Partial("~/Views/Shared/_GetBookmarksByUser.cshtml", new List<BookmarkVM>())
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+    <script>
+        $(document).ready(function () {
+            /*  $('#topClicks').DataTable();*/
+            CallDashboardController('/Home/MostClicked', 'mostClicked');
+            CallDashboardController('/Home/MostClickedToday', 'mostClickedToday');
+            
+
+            function CallDashboardController(url, divId) {
+                $.ajax({
+                    type: 'GET',
+                    url: url
+                }).done(function (response) {
+                    $('#' + divId).html(response);
+                });
+            }
+
+            $('#btnSearch').click(function () {
+                CallDashboardControllerForBookmarks('/Home/LinksForUser', 'bookmarksByUser');
+                function CallDashboardControllerForBookmarks(url, divId) {
+
+                    var username = $("input[name='Username']").val();
+
+                    $.ajax({
+                        type: 'POST',
+                        data: { userName: username},
+                        url: url
+                    }).done(function (response) {
+                        $('#' + divId).html(response);
+                    });
+                }
+
+            });
+
+          
+
+        });
+    </script>
+   
+
+
+}
+
+
+
+

@@ -46,6 +46,8 @@ namespace ReadLater5
 
             services.AddScoped<IBookmarkService, BookmarkService>();
 
+            services.AddScoped<IClickService, ClickService>();
+
             services.AddTransient<IEmailSender, EmailSender>();
             services.Configure<MailKitEmailSenderOptions>(options =>
             {
@@ -79,12 +81,12 @@ namespace ReadLater5
                     //    Configuration.GetSection("Authentication:Google");
 
                     options.ClientId = Configuration["Google:Authentication:Google:ClientId"];
-                    options.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
+                    options.ClientSecret = Configuration["Google:Authentication:Google:ClientSecret"];
                 })
                 .AddFacebook(facebookOptions =>
                 {
-                    facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
-                    facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+                    facebookOptions.AppId = Configuration["Facebook:Authentication:Facebook:AppId"];
+                    facebookOptions.AppSecret = Configuration["Facebook:Authentication:Facebook:AppSecret"];
                 });
 
 

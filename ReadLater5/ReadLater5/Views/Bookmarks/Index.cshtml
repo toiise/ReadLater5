@@ -37,7 +37,9 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.URL)
+                    @Html.ActionLink(item.URL,
+                        "AddClick", "Bookmarks",
+                        new { url = item.URL },  new { target = "_blank" })
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.ShortDescription)

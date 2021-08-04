@@ -68,6 +68,28 @@ namespace Data.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("Entity.Click", b =>
+            {
+                b.Property<int>("ID")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("int")
+                    .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                b.Property<string>("Url")
+                    .HasMaxLength(450)
+                    .HasColumnType("nvarchar(450)");
+
+                b.Property<string>("UserId")
+                    .HasColumnType("nvarchar(450)");
+
+                b.Property<DateTime>("CreateDate")
+                    .HasColumnType("datetime2");
+
+                b.HasKey("ID");
+
+                b.ToTable("Clicks");
+            });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")

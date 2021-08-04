@@ -1,0 +1,27 @@
+﻿@model List<Services.ServiceModels.BookmarkVM>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<div>
+    <table>
+        <thead>
+        <tr>
+            <th>URL</th>
+            <th>Short Description</th>
+        </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.URL</td>
+                </tr>
+                <tr>
+                    <td>@item.ShortDescription</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

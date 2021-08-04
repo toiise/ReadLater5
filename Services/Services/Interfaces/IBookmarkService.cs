@@ -15,6 +15,6 @@ namespace Services.Interfaces
         BookmarkVM GetBookmarkById(int Id);
         void UpdateBookmark(BookmarkVM bookmark);
         void DeleteBookmark(BookmarkVM bookmark);
-        List<BookmarkVM> GetBookmarksByUser(string userId);
+        Task<List<BookmarkVM>>  GetBookmarksByUser(string userId);
     }
 }

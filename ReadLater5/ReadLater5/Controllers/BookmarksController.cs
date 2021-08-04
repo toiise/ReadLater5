@@ -21,18 +21,20 @@ namespace ReadLater5.Controllers
          IBookmarkService _iBookmarkService;
 
          private ICategoryService _iCategoryService;
+         private IClickService _iClickService;
 
-         public BookmarksController(IBookmarkService bookmarkService, ICategoryService iCategoryService)
+        public BookmarksController(IBookmarkService bookmarkService, ICategoryService iCategoryService, IClickService iClickService)
          {
              _iBookmarkService = bookmarkService;
              _iCategoryService = iCategoryService;
+             _iClickService = iClickService;
          }
         // GET: Bookmarks
       
         public IActionResult Index()
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            List<BookmarkVM> model = _iBookmarkService.GetBookmarksByUser(userId);
+            List<BookmarkVM> model = _iBookmarkService.GetBookmarksByUser(userId).Result;
             return View(model);
         }
 
@@ -168,5 +170,17 @@ namespace ReadLater5.Controllers
             _iBookmarkService.DeleteBookmark(bookmark);
             return RedirectToAction("Index");
         }
+
+
+        public IActionResult AddClick(string url)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            _iClickService.AddClick(url, userId);
+
+            return Redirect(url);
+        }
+
+        
+        
     }
 }
