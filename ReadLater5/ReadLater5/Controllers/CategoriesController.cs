@@ -67,31 +67,30 @@ namespace ReadLater5.Controllers
      
         public IActionResult Create( CategoryVM category)
         {
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            var categoryAdd = _categoryService.GetCategory(category.Name);
-
-            if (categoryAdd.Name != null)
-            {
-               
-                return new StatusCodeResult(Microsoft.AspNetCore.Http.StatusCodes.Status400BadRequest);
-            }
-
-
             if (ModelState.IsValid)
             {
+                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+                var categoryAdd = _categoryService.GetCategory(category.Name);
+
+                if (categoryAdd.Name != null)
+                {
+
+                    return new StatusCodeResult(Microsoft.AspNetCore.Http.StatusCodes.Status400BadRequest);
+                }
                 category.UserID = userId;
                 _categoryService.CreateCategory(category);
                 return RedirectToAction("Index");
             }
 
-            return View(category);
+            return View();
         }
 
         // GET: Categories/Edit/5
       
         public IActionResult Edit(int? id)
         {
+
             if (id == null)
             {
                 return new StatusCodeResult(Microsoft.AspNetCore.Http.StatusCodes.Status400BadRequest);
@@ -112,9 +111,10 @@ namespace ReadLater5.Controllers
         
         public IActionResult Edit(CategoryVM category)
         {
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            
             if (ModelState.IsValid)
             {
+                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
                 category.UserID = userId;
                 _categoryService.UpdateCategory(category);
                 return RedirectToAction("Index");

@@ -59,22 +59,32 @@ namespace ReadLater5.Controllers
     
         public IActionResult Create()
         {
+
             var categories = _iCategoryService.GetCategories().Select(x=>x.Name);
 
-            var itemList = new List<SelectListItem>();
-
-            foreach (var item in categories)
+            if (categories.Any())
             {
-                var selItem = new SelectListItem
-                {
-                    Value = item,
-                    Text = item
-                };
+                var itemList = new List<SelectListItem>();
 
-                itemList.Add(selItem);
+                foreach (var item in categories)
+                {
+                    var selItem = new SelectListItem
+                    {
+                        Value = item,
+                        Text = item
+                    };
+
+                    itemList.Add(selItem);
+                }
+
+                ViewBag.select2 = new SelectList(itemList, "Value", "Text");
+            }
+            else
+            {
+                ViewBag.select2 = null;
             }
 
-            ViewBag.select2 = new SelectList(itemList, "Value", "Text");
+          
 
             return View();
         }

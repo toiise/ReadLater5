@@ -133,31 +133,21 @@ namespace Services
 
         public List<CategoryVM> GetCategoriesByUser(string userId)
         {
-            try
+           var categories = _ReadLaterDataContext.Categories?.Where(c => c.UserID == userId)?.ToList();
+
+           var listOfCategoriesVM = new List<CategoryVM>();
+
+            if (categories.Any())
             {
-                var categories = _ReadLaterDataContext.Categories?.Where(c => c.UserID == userId)?.ToList();
+                foreach (var item in categories)
+                {
+                    var categorykSM = new CategoryVM();
+                    categorykSM.ID = item.ID;
+                    categorykSM.Name = item.Name;
+                    categorykSM.UserID = item.UserID;
+                    listOfCategoriesVM.Add(categorykSM);
+                }
             }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
-           
-
-
-            var listOfCategoriesVM = new List<CategoryVM>();
-
-            //if (categories.Any())
-            //{
-            //    foreach (var item in categories)
-            //    {
-            //        var categorykSM = new CategoryVM();
-            //        categorykSM.ID = item.ID;
-            //        categorykSM.Name = item.Name;
-            //        categorykSM.UserID = item.UserID;
-            //        listOfCategoriesVM.Add(categorykSM);
-            //    }
-            //}
 
             return listOfCategoriesVM;
         }
