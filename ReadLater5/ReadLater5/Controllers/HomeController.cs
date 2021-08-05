@@ -51,8 +51,8 @@ namespace ReadLater5.Controllers
         {
             var clickVm =  await _clickService.GetMostPopularClicks();
 
-
-            return PartialView("~/Views/Shared/_MostClicked.cshtml", clickVm);
+          var orderedList =  clickVm.OrderByDescending(x => x.TotalClicks).Take(5);
+            return PartialView("~/Views/Shared/_MostClicked.cshtml", orderedList);
 
         }
 
@@ -61,8 +61,8 @@ namespace ReadLater5.Controllers
         {
             var clickVm = await _clickService.GetMostPopularClicksToday();
 
-
-            return PartialView("~/Views/Shared/_TopFiveToday.cshtml", clickVm);
+            var orderedList = clickVm.OrderByDescending(x => x.TotalClicks).Take(5);
+            return PartialView("~/Views/Shared/_TopFiveToday.cshtml", orderedList);
 
         }
 

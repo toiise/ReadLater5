@@ -53,7 +53,7 @@ namespace Services
 
                     }
                 ).ToList();
-            allClicks.OrderBy(x => x.TotalClicks).Take(5);
+           
             return Task.FromResult(allClicks);
         }
 
@@ -71,7 +71,7 @@ namespace Services
                     ).ToList();
 
 
-                allClicks.OrderBy(x => x.TotalClicks).Take(5);
+               
                 return Task.FromResult(allClicks);
         }
     }
